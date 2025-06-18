@@ -1,0 +1,6029 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32e73adb00d091ba3c9a2cdd5f4dbc4e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_32e73adb00d091ba3c9a2cdd5f4dbc4e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_32e73adb00d091ba3c9a2cdd5f4dbc4e = L.map(
+                "map_32e73adb00d091ba3c9a2cdd5f4dbc4e",
+                {
+                    center: [-15.7942, -47.8822],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9be3acfbe818111aa49e1aeb57605392 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9be3acfbe818111aa49e1aeb57605392.addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var marker_24139cf72b7f7f3b058725c09112a7ac = L.marker(
+                [-15.804541, -48.097847],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_fb3107a923ee1bc6c7e5ef6b2a051207 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8ba8f6b1a4ad8a1b863006b86d32f02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80826dcde881365500a9956ba4c4163c = $(`<div id="html_80826dcde881365500a9956ba4c4163c" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_f8ba8f6b1a4ad8a1b863006b86d32f02.setContent(html_80826dcde881365500a9956ba4c4163c);
+            
+        
+
+        marker_24139cf72b7f7f3b058725c09112a7ac.bindPopup(popup_f8ba8f6b1a4ad8a1b863006b86d32f02)
+        ;
+
+        
+    
+    
+                marker_24139cf72b7f7f3b058725c09112a7ac.setIcon(icon_fb3107a923ee1bc6c7e5ef6b2a051207);
+            
+    
+            var marker_56a7994529debabe3754e5756cae29a5 = L.marker(
+                [-15.81155, -47.88252],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_14bff4be3a5f897a9160696fc8d77cbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a442ecb61d96ddd56cd4d1bace8ff5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab2739352d5f24d0d4f9da3cd56b7526 = $(`<div id="html_ab2739352d5f24d0d4f9da3cd56b7526" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_6a442ecb61d96ddd56cd4d1bace8ff5f.setContent(html_ab2739352d5f24d0d4f9da3cd56b7526);
+            
+        
+
+        marker_56a7994529debabe3754e5756cae29a5.bindPopup(popup_6a442ecb61d96ddd56cd4d1bace8ff5f)
+        ;
+
+        
+    
+    
+                marker_56a7994529debabe3754e5756cae29a5.setIcon(icon_14bff4be3a5f897a9160696fc8d77cbc);
+            
+    
+            var marker_1e6413ead744496a4f9f0105ea3e2f93 = L.marker(
+                [-15.75384, -47.88392],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_dc2d069ca026bb48b3aa9c908941b1ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_252fc3201c880e49fdc6e35bb902e22e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_838b03bfe91fc5aa2c1e538c8d06bebb = $(`<div id="html_838b03bfe91fc5aa2c1e538c8d06bebb" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei</div>`)[0];
+                popup_252fc3201c880e49fdc6e35bb902e22e.setContent(html_838b03bfe91fc5aa2c1e538c8d06bebb);
+            
+        
+
+        marker_1e6413ead744496a4f9f0105ea3e2f93.bindPopup(popup_252fc3201c880e49fdc6e35bb902e22e)
+        ;
+
+        
+    
+    
+                marker_1e6413ead744496a4f9f0105ea3e2f93.setIcon(icon_dc2d069ca026bb48b3aa9c908941b1ce);
+            
+    
+            var marker_66b5af770ba0b643f1d217b0dbe1ac0e = L.marker(
+                [-15.81745, -47.98425],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6628cdeffa41972dfdd6747649b10bb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a42ab73d39d2234c9a6c6b3680139dc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d4cb1146bc8bdbd7944ce2264e80ecc = $(`<div id="html_0d4cb1146bc8bdbd7944ce2264e80ecc" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_a42ab73d39d2234c9a6c6b3680139dc6.setContent(html_0d4cb1146bc8bdbd7944ce2264e80ecc);
+            
+        
+
+        marker_66b5af770ba0b643f1d217b0dbe1ac0e.bindPopup(popup_a42ab73d39d2234c9a6c6b3680139dc6)
+        ;
+
+        
+    
+    
+                marker_66b5af770ba0b643f1d217b0dbe1ac0e.setIcon(icon_6628cdeffa41972dfdd6747649b10bb4);
+            
+    
+            var marker_2378daf0a7998cfe98962af11d92f7c5 = L.marker(
+                [-15.83281, -48.02896],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_80c102d4b6f8ed129b39e3a977554028 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4384d0a70c9567d16813a72a9583f2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5421760207feaa2473c6ac5a80ad3b97 = $(`<div id="html_5421760207feaa2473c6ac5a80ad3b97" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol de Areia</div>`)[0];
+                popup_e4384d0a70c9567d16813a72a9583f2c.setContent(html_5421760207feaa2473c6ac5a80ad3b97);
+            
+        
+
+        marker_2378daf0a7998cfe98962af11d92f7c5.bindPopup(popup_e4384d0a70c9567d16813a72a9583f2c)
+        ;
+
+        
+    
+    
+                marker_2378daf0a7998cfe98962af11d92f7c5.setIcon(icon_80c102d4b6f8ed129b39e3a977554028);
+            
+    
+            var marker_d36a5e46e42db7109caf90ba76f80647 = L.marker(
+                [-15.79841, -47.91523],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_a958d2632cb75f9ec223f8bdc7b33f4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1816799d3fdff862f5cda14b73b3194f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49a1150d0c5c0fd63d3b5c35dbe7101d = $(`<div id="html_49a1150d0c5c0fd63d3b5c35dbe7101d" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis</div>`)[0];
+                popup_1816799d3fdff862f5cda14b73b3194f.setContent(html_49a1150d0c5c0fd63d3b5c35dbe7101d);
+            
+        
+
+        marker_d36a5e46e42db7109caf90ba76f80647.bindPopup(popup_1816799d3fdff862f5cda14b73b3194f)
+        ;
+
+        
+    
+    
+                marker_d36a5e46e42db7109caf90ba76f80647.setIcon(icon_a958d2632cb75f9ec223f8bdc7b33f4d);
+            
+    
+            var marker_02ab39257dcf98dd1256b34085f39cc7 = L.marker(
+                [-15.79257, -47.93581],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_300637b3bf60703f8221460ffd07303e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8c6ed80308663b862e2a803d52ee724 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73241145332e8b111a9b8688914c1c7f = $(`<div id="html_73241145332e8b111a9b8688914c1c7f" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_b8c6ed80308663b862e2a803d52ee724.setContent(html_73241145332e8b111a9b8688914c1c7f);
+            
+        
+
+        marker_02ab39257dcf98dd1256b34085f39cc7.bindPopup(popup_b8c6ed80308663b862e2a803d52ee724)
+        ;
+
+        
+    
+    
+                marker_02ab39257dcf98dd1256b34085f39cc7.setIcon(icon_300637b3bf60703f8221460ffd07303e);
+            
+    
+            var marker_a0b780b97cd4384a13ca435a86d5ab3d = L.marker(
+                [-15.81533, -47.87321],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1c1fb6c80f0295d46c143ab9079ac955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3496a1486a169f2bc8f45db0da4c76b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3b2baf6c084d2c1b3eac8a4eb0cac14 = $(`<div id="html_b3b2baf6c084d2c1b3eac8a4eb0cac14" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei de Praia</div>`)[0];
+                popup_b3496a1486a169f2bc8f45db0da4c76b.setContent(html_b3b2baf6c084d2c1b3eac8a4eb0cac14);
+            
+        
+
+        marker_a0b780b97cd4384a13ca435a86d5ab3d.bindPopup(popup_b3496a1486a169f2bc8f45db0da4c76b)
+        ;
+
+        
+    
+    
+                marker_a0b780b97cd4384a13ca435a86d5ab3d.setIcon(icon_1c1fb6c80f0295d46c143ab9079ac955);
+            
+    
+            var marker_3817772a762b0350e8b4548e8cfad1c7 = L.marker(
+                [-15.87532, -48.09451],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_ed09b668993d8ff0891fd13f986684c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40a46391636a23c8710daece075bee12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77880567494c394fb76bf4c6a463add7 = $(`<div id="html_77880567494c394fb76bf4c6a463add7" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_40a46391636a23c8710daece075bee12.setContent(html_77880567494c394fb76bf4c6a463add7);
+            
+        
+
+        marker_3817772a762b0350e8b4548e8cfad1c7.bindPopup(popup_40a46391636a23c8710daece075bee12)
+        ;
+
+        
+    
+    
+                marker_3817772a762b0350e8b4548e8cfad1c7.setIcon(icon_ed09b668993d8ff0891fd13f986684c9);
+            
+    
+            var marker_c506cfd0caab2b97af9228d07c22f3a9 = L.marker(
+                [-15.81436, -48.09312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_95e266ef5c1bd41fd0847e011382854a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d0bf1c55f45de85dc8ceab013f94fa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f559b28b8059688f671f2a3f1c10026 = $(`<div id="html_6f559b28b8059688f671f2a3f1c10026" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_6d0bf1c55f45de85dc8ceab013f94fa4.setContent(html_6f559b28b8059688f671f2a3f1c10026);
+            
+        
+
+        marker_c506cfd0caab2b97af9228d07c22f3a9.bindPopup(popup_6d0bf1c55f45de85dc8ceab013f94fa4)
+        ;
+
+        
+    
+    
+                marker_c506cfd0caab2b97af9228d07c22f3a9.setIcon(icon_95e266ef5c1bd41fd0847e011382854a);
+            
+    
+            var marker_c5dfc2e379b718a1e98872df08b61684 = L.marker(
+                [-15.75833, -47.88278],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_565918325ed90d74fd7c2c987251e041 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64f67ee8550163d2d2aa94dd5dbde888 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_046dec8f07354b9ee1f2257d8a68cb79 = $(`<div id="html_046dec8f07354b9ee1f2257d8a68cb79" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_64f67ee8550163d2d2aa94dd5dbde888.setContent(html_046dec8f07354b9ee1f2257d8a68cb79);
+            
+        
+
+        marker_c5dfc2e379b718a1e98872df08b61684.bindPopup(popup_64f67ee8550163d2d2aa94dd5dbde888)
+        ;
+
+        
+    
+    
+                marker_c5dfc2e379b718a1e98872df08b61684.setIcon(icon_565918325ed90d74fd7c2c987251e041);
+            
+    
+            var marker_4d1f07be17ebf6aebc292b45e5607ec2 = L.marker(
+                [-15.83015, -47.99613],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_79d2d8971549fa0eb889196eada0401a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1ea0a44e2c7cb86b19f016f2efd0c5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ece1cd16598fd6347a68e627e2bbd8b0 = $(`<div id="html_ece1cd16598fd6347a68e627e2bbd8b0" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol Society</div>`)[0];
+                popup_a1ea0a44e2c7cb86b19f016f2efd0c5d.setContent(html_ece1cd16598fd6347a68e627e2bbd8b0);
+            
+        
+
+        marker_4d1f07be17ebf6aebc292b45e5607ec2.bindPopup(popup_a1ea0a44e2c7cb86b19f016f2efd0c5d)
+        ;
+
+        
+    
+    
+                marker_4d1f07be17ebf6aebc292b45e5607ec2.setIcon(icon_79d2d8971549fa0eb889196eada0401a);
+            
+    
+            var marker_3f5ff0a4254be494a357c58672ad85c6 = L.marker(
+                [-15.79969, -47.90712],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2b43b36a607cf095aaf6d91a13a9d981 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2c45dfef57ea0ce72908febd9373d6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4e8a704cdac04fee03826f031430051 = $(`<div id="html_a4e8a704cdac04fee03826f031430051" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_c2c45dfef57ea0ce72908febd9373d6e.setContent(html_a4e8a704cdac04fee03826f031430051);
+            
+        
+
+        marker_3f5ff0a4254be494a357c58672ad85c6.bindPopup(popup_c2c45dfef57ea0ce72908febd9373d6e)
+        ;
+
+        
+    
+    
+                marker_3f5ff0a4254be494a357c58672ad85c6.setIcon(icon_2b43b36a607cf095aaf6d91a13a9d981);
+            
+    
+            var marker_11c3d160e6ffad9277dca3f90b2e2850 = L.marker(
+                [-15.82345, -48.11327],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0b89b4da5eae9cac4115aac74240093f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c69163b5bc2158ea828d0966a0222e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3e869211fbce0c59004dbce43ea52ec = $(`<div id="html_d3e869211fbce0c59004dbce43ea52ec" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_7c69163b5bc2158ea828d0966a0222e5.setContent(html_d3e869211fbce0c59004dbce43ea52ec);
+            
+        
+
+        marker_11c3d160e6ffad9277dca3f90b2e2850.bindPopup(popup_7c69163b5bc2158ea828d0966a0222e5)
+        ;
+
+        
+    
+    
+                marker_11c3d160e6ffad9277dca3f90b2e2850.setIcon(icon_0b89b4da5eae9cac4115aac74240093f);
+            
+    
+            var marker_c6f6ee309196c665b237d64e543c80cd = L.marker(
+                [-16.01524, -48.06431],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_70a70292d59476cb4a6b2273b35a9cbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e88ff7db856817fcbdc05c70f1c43c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c50124064880cf69babe0dd72585b3bc = $(`<div id="html_c50124064880cf69babe0dd72585b3bc" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol de Salão</div>`)[0];
+                popup_4e88ff7db856817fcbdc05c70f1c43c2.setContent(html_c50124064880cf69babe0dd72585b3bc);
+            
+        
+
+        marker_c6f6ee309196c665b237d64e543c80cd.bindPopup(popup_4e88ff7db856817fcbdc05c70f1c43c2)
+        ;
+
+        
+    
+    
+                marker_c6f6ee309196c665b237d64e543c80cd.setIcon(icon_70a70292d59476cb4a6b2273b35a9cbd);
+            
+    
+            var marker_1897926861ebcff6bdd2d819ad62f796 = L.marker(
+                [-15.65187, -47.79154],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_62c998ce69fd42f6751704c50a44c17a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21678553295467c4b92531e83fe8ccd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bc2d26f4fd9860cd66903ef3f465614 = $(`<div id="html_8bc2d26f4fd9860cd66903ef3f465614" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_21678553295467c4b92531e83fe8ccd5.setContent(html_8bc2d26f4fd9860cd66903ef3f465614);
+            
+        
+
+        marker_1897926861ebcff6bdd2d819ad62f796.bindPopup(popup_21678553295467c4b92531e83fe8ccd5)
+        ;
+
+        
+    
+    
+                marker_1897926861ebcff6bdd2d819ad62f796.setIcon(icon_62c998ce69fd42f6751704c50a44c17a);
+            
+    
+            var marker_19997bc3a3a6f2517698f174cc68ed05 = L.marker(
+                [-15.87974, -48.00762],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_447147a3b68403947f8a7187b6e0c222 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79f22d3cecb324923a2aa5437015c8a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_606a00e3bbbebd3cc1f70fc7c1544a13 = $(`<div id="html_606a00e3bbbebd3cc1f70fc7c1544a13" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_79f22d3cecb324923a2aa5437015c8a1.setContent(html_606a00e3bbbebd3cc1f70fc7c1544a13);
+            
+        
+
+        marker_19997bc3a3a6f2517698f174cc68ed05.bindPopup(popup_79f22d3cecb324923a2aa5437015c8a1)
+        ;
+
+        
+    
+    
+                marker_19997bc3a3a6f2517698f174cc68ed05.setIcon(icon_447147a3b68403947f8a7187b6e0c222);
+            
+    
+            var marker_4780dd65b318269a71f630e081d1403e = L.marker(
+                [-15.80345, -47.88691],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1ff3b235184786a48d309cff53e8ecfc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd73d8cbc620e78ca321f323bba5cafd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ece866a7de9506f8964f442423f3666 = $(`<div id="html_7ece866a7de9506f8964f442423f3666" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol de Salão</div>`)[0];
+                popup_bd73d8cbc620e78ca321f323bba5cafd.setContent(html_7ece866a7de9506f8964f442423f3666);
+            
+        
+
+        marker_4780dd65b318269a71f630e081d1403e.bindPopup(popup_bd73d8cbc620e78ca321f323bba5cafd)
+        ;
+
+        
+    
+    
+                marker_4780dd65b318269a71f630e081d1403e.setIcon(icon_1ff3b235184786a48d309cff53e8ecfc);
+            
+    
+            var marker_2bc861e6700e17b5b1cb3b84692ccc10 = L.marker(
+                [-15.79412, -48.07342],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_fba980c308bef2beae93f2ea5c2487ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_598b591f3f981b2e9fab8c03c8af3d61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d21e164fef693569263128683de76265 = $(`<div id="html_d21e164fef693569263128683de76265" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_598b591f3f981b2e9fab8c03c8af3d61.setContent(html_d21e164fef693569263128683de76265);
+            
+        
+
+        marker_2bc861e6700e17b5b1cb3b84692ccc10.bindPopup(popup_598b591f3f981b2e9fab8c03c8af3d61)
+        ;
+
+        
+    
+    
+                marker_2bc861e6700e17b5b1cb3b84692ccc10.setIcon(icon_fba980c308bef2beae93f2ea5c2487ae);
+            
+    
+            var marker_4b2dc65c34dba93c6879c724648fd980 = L.marker(
+                [-15.83842, -48.02111],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_76f1e5a1f217e59c299bbe50c4b170a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9288a718cb8b86bc5995ddccc6b85476 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2d21e313f579f0318794a37510dff2c = $(`<div id="html_a2d21e313f579f0318794a37510dff2c" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei</div>`)[0];
+                popup_9288a718cb8b86bc5995ddccc6b85476.setContent(html_a2d21e313f579f0318794a37510dff2c);
+            
+        
+
+        marker_4b2dc65c34dba93c6879c724648fd980.bindPopup(popup_9288a718cb8b86bc5995ddccc6b85476)
+        ;
+
+        
+    
+    
+                marker_4b2dc65c34dba93c6879c724648fd980.setIcon(icon_76f1e5a1f217e59c299bbe50c4b170a6);
+            
+    
+            var marker_a09a7cd209b6db5d581e468ba4450a96 = L.marker(
+                [-15.79011, -47.94253],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_a6900ff4b8f97f8f56970cf32ce9c462 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb9d93b3e2b53c8c86bfe188fd2f2241 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13a21ccf4d553d1cc7c4b26c729e8c06 = $(`<div id="html_13a21ccf4d553d1cc7c4b26c729e8c06" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_cb9d93b3e2b53c8c86bfe188fd2f2241.setContent(html_13a21ccf4d553d1cc7c4b26c729e8c06);
+            
+        
+
+        marker_a09a7cd209b6db5d581e468ba4450a96.bindPopup(popup_cb9d93b3e2b53c8c86bfe188fd2f2241)
+        ;
+
+        
+    
+    
+                marker_a09a7cd209b6db5d581e468ba4450a96.setIcon(icon_a6900ff4b8f97f8f56970cf32ce9c462);
+            
+    
+            var marker_5fecd5363e3cff99978a98787b0f13a3 = L.marker(
+                [-15.85693, -48.10642],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_7a83d6aa8639d366d555084535aa9ee6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5358179b7087ce0a8cfb78f8e5d0e202 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a475021cc9e1a6a95f8d6c1e2277fb1 = $(`<div id="html_9a475021cc9e1a6a95f8d6c1e2277fb1" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_5358179b7087ce0a8cfb78f8e5d0e202.setContent(html_9a475021cc9e1a6a95f8d6c1e2277fb1);
+            
+        
+
+        marker_5fecd5363e3cff99978a98787b0f13a3.bindPopup(popup_5358179b7087ce0a8cfb78f8e5d0e202)
+        ;
+
+        
+    
+    
+                marker_5fecd5363e3cff99978a98787b0f13a3.setIcon(icon_7a83d6aa8639d366d555084535aa9ee6);
+            
+    
+            var marker_6a6a5dfd55920be04d38a0f16cbc7011 = L.marker(
+                [-15.74831, -47.84351],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f6b7e01466b0505b653ba717e8ef7e3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20c7433b1e46f2555ec5999bcd3a26c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52bdd77c903dd50e2d67ea220d08e90a = $(`<div id="html_52bdd77c903dd50e2d67ea220d08e90a" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis</div>`)[0];
+                popup_20c7433b1e46f2555ec5999bcd3a26c1.setContent(html_52bdd77c903dd50e2d67ea220d08e90a);
+            
+        
+
+        marker_6a6a5dfd55920be04d38a0f16cbc7011.bindPopup(popup_20c7433b1e46f2555ec5999bcd3a26c1)
+        ;
+
+        
+    
+    
+                marker_6a6a5dfd55920be04d38a0f16cbc7011.setIcon(icon_f6b7e01466b0505b653ba717e8ef7e3f);
+            
+    
+            var marker_25589948731d62f84cfff59386b83aa1 = L.marker(
+                [-15.79582, -47.91032],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_174e830fdf30c9d91e9393fb97099786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4404efd501d7f279d1edc68824e82c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29368c4fc4ffd2d3c72794416d95ed62 = $(`<div id="html_29368c4fc4ffd2d3c72794416d95ed62" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_b4404efd501d7f279d1edc68824e82c3.setContent(html_29368c4fc4ffd2d3c72794416d95ed62);
+            
+        
+
+        marker_25589948731d62f84cfff59386b83aa1.bindPopup(popup_b4404efd501d7f279d1edc68824e82c3)
+        ;
+
+        
+    
+    
+                marker_25589948731d62f84cfff59386b83aa1.setIcon(icon_174e830fdf30c9d91e9393fb97099786);
+            
+    
+            var marker_711c624b7668465f4fefe1fbf2fe8331 = L.marker(
+                [-15.77083, -47.88139],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1885ebd0fe84bac3a5212d8a687560dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0be3f2a946e20f589570892f4c750434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abda269e86f9b10d8bc82590efe8828a = $(`<div id="html_abda269e86f9b10d8bc82590efe8828a" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei de Praia</div>`)[0];
+                popup_0be3f2a946e20f589570892f4c750434.setContent(html_abda269e86f9b10d8bc82590efe8828a);
+            
+        
+
+        marker_711c624b7668465f4fefe1fbf2fe8331.bindPopup(popup_0be3f2a946e20f589570892f4c750434)
+        ;
+
+        
+    
+    
+                marker_711c624b7668465f4fefe1fbf2fe8331.setIcon(icon_1885ebd0fe84bac3a5212d8a687560dd);
+            
+    
+            var marker_148d6a0d90ddb57574a1f016ceb0d40c = L.marker(
+                [-15.81423, -47.97914],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_92e55dc928846463050d9632b0443f73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e837213dec31decfbba7d777bd95fd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4255ff2b0c3368e1995fd7fa8f873de = $(`<div id="html_f4255ff2b0c3368e1995fd7fa8f873de" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_7e837213dec31decfbba7d777bd95fd8.setContent(html_f4255ff2b0c3368e1995fd7fa8f873de);
+            
+        
+
+        marker_148d6a0d90ddb57574a1f016ceb0d40c.bindPopup(popup_7e837213dec31decfbba7d777bd95fd8)
+        ;
+
+        
+    
+    
+                marker_148d6a0d90ddb57574a1f016ceb0d40c.setIcon(icon_92e55dc928846463050d9632b0443f73);
+            
+    
+            var marker_c8ef09eee05864a35dccbf7f378873d0 = L.marker(
+                [-15.79631, -48.05842],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_3286d4e5e5f1305618672d332a6fd860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68facb91711b8a6b03158cd347bab385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0683f8d1e985472fa8caae4a7781b881 = $(`<div id="html_0683f8d1e985472fa8caae4a7781b881" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_68facb91711b8a6b03158cd347bab385.setContent(html_0683f8d1e985472fa8caae4a7781b881);
+            
+        
+
+        marker_c8ef09eee05864a35dccbf7f378873d0.bindPopup(popup_68facb91711b8a6b03158cd347bab385)
+        ;
+
+        
+    
+    
+                marker_c8ef09eee05864a35dccbf7f378873d0.setIcon(icon_3286d4e5e5f1305618672d332a6fd860);
+            
+    
+            var marker_6281d260ea54e5952ad38d4d59c77662 = L.marker(
+                [-15.82141, -47.90483],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_b7349b7dee0493d3baddc80173d8fd10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ed8ec7f1a69c9dee0ab4f08aaf1d7cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4db0de4cec3074f3339c1c01f64ab6bd = $(`<div id="html_4db0de4cec3074f3339c1c01f64ab6bd" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_9ed8ec7f1a69c9dee0ab4f08aaf1d7cc.setContent(html_4db0de4cec3074f3339c1c01f64ab6bd);
+            
+        
+
+        marker_6281d260ea54e5952ad38d4d59c77662.bindPopup(popup_9ed8ec7f1a69c9dee0ab4f08aaf1d7cc)
+        ;
+
+        
+    
+    
+                marker_6281d260ea54e5952ad38d4d59c77662.setIcon(icon_b7349b7dee0493d3baddc80173d8fd10);
+            
+    
+            var marker_070a6584b4fd123e93cfd48cbe902954 = L.marker(
+                [-15.82056, -47.87833],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_e1cea3e0fc1cb787a32fb81c3c2ee442 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14813c83df9194edfa87fdaaf3562c30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d20ebf34c23d6af9bdba128290e0ec7 = $(`<div id="html_7d20ebf34c23d6af9bdba128290e0ec7" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol Society</div>`)[0];
+                popup_14813c83df9194edfa87fdaaf3562c30.setContent(html_7d20ebf34c23d6af9bdba128290e0ec7);
+            
+        
+
+        marker_070a6584b4fd123e93cfd48cbe902954.bindPopup(popup_14813c83df9194edfa87fdaaf3562c30)
+        ;
+
+        
+    
+    
+                marker_070a6584b4fd123e93cfd48cbe902954.setIcon(icon_e1cea3e0fc1cb787a32fb81c3c2ee442);
+            
+    
+            var marker_599e7f1fd1ab0ffee024c3ee858c9392 = L.marker(
+                [-15.75831, -47.90112],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_b993c5d0ec180dd4b087b8bc36ff6d64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0961905f6c541bf635d91ca66250842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48a142ebb2bd726fb6c372435d67e5cf = $(`<div id="html_48a142ebb2bd726fb6c372435d67e5cf" style="width: 100.0%; height: 100.0%;"> Quadra de Beach Tennis</div>`)[0];
+                popup_f0961905f6c541bf635d91ca66250842.setContent(html_48a142ebb2bd726fb6c372435d67e5cf);
+            
+        
+
+        marker_599e7f1fd1ab0ffee024c3ee858c9392.bindPopup(popup_f0961905f6c541bf635d91ca66250842)
+        ;
+
+        
+    
+    
+                marker_599e7f1fd1ab0ffee024c3ee858c9392.setIcon(icon_b993c5d0ec180dd4b087b8bc36ff6d64);
+            
+    
+            var marker_d81d99c76e8bb9086c5681b4a9d232c6 = L.marker(
+                [-15.79724, -48.02741],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_4c9059dd1ba53939f2273e8dc3ace0ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56b0a6defc9fe77f322d0a8e9f14db7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7960e5df84414ac6ba9215fb7f5d96aa = $(`<div id="html_7960e5df84414ac6ba9215fb7f5d96aa" style="width: 100.0%; height: 100.0%;"> Campo Sintético Vicente Pires</div>`)[0];
+                popup_56b0a6defc9fe77f322d0a8e9f14db7f.setContent(html_7960e5df84414ac6ba9215fb7f5d96aa);
+            
+        
+
+        marker_d81d99c76e8bb9086c5681b4a9d232c6.bindPopup(popup_56b0a6defc9fe77f322d0a8e9f14db7f)
+        ;
+
+        
+    
+    
+                marker_d81d99c76e8bb9086c5681b4a9d232c6.setIcon(icon_4c9059dd1ba53939f2273e8dc3ace0ea);
+            
+    
+            var marker_01546c7597a381ad4af8fa77783ab67e = L.marker(
+                [-15.86832, -47.82151],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_3f83419340cb4bfe8761e3f85dbebcc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29d9b7bf4e192b4ff898b3ac46ecd8b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85c68fc9c5ce50ce798b83c133a99a41 = $(`<div id="html_85c68fc9c5ce50ce798b83c133a99a41" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis de Saibro</div>`)[0];
+                popup_29d9b7bf4e192b4ff898b3ac46ecd8b1.setContent(html_85c68fc9c5ce50ce798b83c133a99a41);
+            
+        
+
+        marker_01546c7597a381ad4af8fa77783ab67e.bindPopup(popup_29d9b7bf4e192b4ff898b3ac46ecd8b1)
+        ;
+
+        
+    
+    
+                marker_01546c7597a381ad4af8fa77783ab67e.setIcon(icon_3f83419340cb4bfe8761e3f85dbebcc1);
+            
+    
+            var marker_d921f4870521733ad5f487d39325962e = L.marker(
+                [-15.87413, -47.93512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f6a1562f667d1a5ad497b1dc580f9743 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6d5cd8cf7f4ad24609d01628fd27376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a3b48e3ba36e22d95a1e347afeb5ef2 = $(`<div id="html_4a3b48e3ba36e22d95a1e347afeb5ef2" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva Privada</div>`)[0];
+                popup_e6d5cd8cf7f4ad24609d01628fd27376.setContent(html_4a3b48e3ba36e22d95a1e347afeb5ef2);
+            
+        
+
+        marker_d921f4870521733ad5f487d39325962e.bindPopup(popup_e6d5cd8cf7f4ad24609d01628fd27376)
+        ;
+
+        
+    
+    
+                marker_d921f4870521733ad5f487d39325962e.setIcon(icon_f6a1562f667d1a5ad497b1dc580f9743);
+            
+    
+            var marker_406f39006d2390a58ea971e2b5530599 = L.marker(
+                [-15.75314, -47.77813],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_bd06df9d2ee694e6774bf549449c08c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d12ecc986bcada78bbe3a1bdb12afcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88c2c3df7f0b29c49f77e0642d01d305 = $(`<div id="html_88c2c3df7f0b29c49f77e0642d01d305" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_0d12ecc986bcada78bbe3a1bdb12afcf.setContent(html_88c2c3df7f0b29c49f77e0642d01d305);
+            
+        
+
+        marker_406f39006d2390a58ea971e2b5530599.bindPopup(popup_0d12ecc986bcada78bbe3a1bdb12afcf)
+        ;
+
+        
+    
+    
+                marker_406f39006d2390a58ea971e2b5530599.setIcon(icon_bd06df9d2ee694e6774bf549449c08c8);
+            
+    
+            var marker_f897e56774bfbef3dd6854a6b782007c = L.marker(
+                [-15.77812, -47.96251],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_5f3978adcbcd6ab68bc1a506c5d62cad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e89a0a23149a329a787e90874ede6f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7f5c44e4028619c57d95cf4ab96b457 = $(`<div id="html_e7f5c44e4028619c57d95cf4ab96b457" style="width: 100.0%; height: 100.0%;"> Quadra da Vila Olímpica</div>`)[0];
+                popup_e89a0a23149a329a787e90874ede6f59.setContent(html_e7f5c44e4028619c57d95cf4ab96b457);
+            
+        
+
+        marker_f897e56774bfbef3dd6854a6b782007c.bindPopup(popup_e89a0a23149a329a787e90874ede6f59)
+        ;
+
+        
+    
+    
+                marker_f897e56774bfbef3dd6854a6b782007c.setIcon(icon_5f3978adcbcd6ab68bc1a506c5d62cad);
+            
+    
+            var marker_f518c0a43fea2f3187b8b1672ae02736 = L.marker(
+                [-15.85731, -47.94312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_656ba3f1a7e919dc9fe29db920d45b20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1413f82a17a9eec9eca0605de74dd060 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d27ecb063ad73ca4613f44ac8067d2c = $(`<div id="html_0d27ecb063ad73ca4613f44ac8067d2c" style="width: 100.0%; height: 100.0%;"> Quadra de Malha</div>`)[0];
+                popup_1413f82a17a9eec9eca0605de74dd060.setContent(html_0d27ecb063ad73ca4613f44ac8067d2c);
+            
+        
+
+        marker_f518c0a43fea2f3187b8b1672ae02736.bindPopup(popup_1413f82a17a9eec9eca0605de74dd060)
+        ;
+
+        
+    
+    
+                marker_f518c0a43fea2f3187b8b1672ae02736.setIcon(icon_656ba3f1a7e919dc9fe29db920d45b20);
+            
+    
+            var marker_31e53c0d3686d4e55fe343a5f9d1c003 = L.marker(
+                [-15.72143, -47.86813],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_92fb3362cd272cbdd23809a7b4b72d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3aa29556f09922cb23b472197809501f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bfbb4e3f67481ec066893f8def9eafe = $(`<div id="html_7bfbb4e3f67481ec066893f8def9eafe" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_3aa29556f09922cb23b472197809501f.setContent(html_7bfbb4e3f67481ec066893f8def9eafe);
+            
+        
+
+        marker_31e53c0d3686d4e55fe343a5f9d1c003.bindPopup(popup_3aa29556f09922cb23b472197809501f)
+        ;
+
+        
+    
+    
+                marker_31e53c0d3686d4e55fe343a5f9d1c003.setIcon(icon_92fb3362cd272cbdd23809a7b4b72d0d);
+            
+    
+            var marker_deda7fcfacb7fa3c3bbb528b508206ec = L.marker(
+                [-15.76342, -47.87113],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_df135277d2d23f3270ee859961432eca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_468f743ea0eea5be3e0bcc02aae1f77a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f6375b3f4c65458d22cff28a092c8fb = $(`<div id="html_2f6375b3f4c65458d22cff28a092c8fb" style="width: 100.0%; height: 100.0%;"> Quadra de Futevôlei</div>`)[0];
+                popup_468f743ea0eea5be3e0bcc02aae1f77a.setContent(html_2f6375b3f4c65458d22cff28a092c8fb);
+            
+        
+
+        marker_deda7fcfacb7fa3c3bbb528b508206ec.bindPopup(popup_468f743ea0eea5be3e0bcc02aae1f77a)
+        ;
+
+        
+    
+    
+                marker_deda7fcfacb7fa3c3bbb528b508206ec.setIcon(icon_df135277d2d23f3270ee859961432eca);
+            
+    
+            var marker_990cb964ad40171943ffb1dd342b8246 = L.marker(
+                [-15.81241, -47.89243],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_12c86ff06403621e63f5beb1866f02f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1114cff7cf73dfd4709c5cdc7343c41f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdd1bc228f809ab39a5194884a70d356 = $(`<div id="html_bdd1bc228f809ab39a5194884a70d356" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_1114cff7cf73dfd4709c5cdc7343c41f.setContent(html_bdd1bc228f809ab39a5194884a70d356);
+            
+        
+
+        marker_990cb964ad40171943ffb1dd342b8246.bindPopup(popup_1114cff7cf73dfd4709c5cdc7343c41f)
+        ;
+
+        
+    
+    
+                marker_990cb964ad40171943ffb1dd342b8246.setIcon(icon_12c86ff06403621e63f5beb1866f02f2);
+            
+    
+            var marker_1b9d33b1bc3434d99280f19ef36bbd5c = L.marker(
+                [-15.81024, -48.12513],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c0ca00b523d6cdf53d80b288fcc648da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31c9852defe5697d0c93e0a7010b7e19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a9e00d5f7f70e346f8e6513467a72c5 = $(`<div id="html_8a9e00d5f7f70e346f8e6513467a72c5" style="width: 100.0%; height: 100.0%;"> Pista de Skate</div>`)[0];
+                popup_31c9852defe5697d0c93e0a7010b7e19.setContent(html_8a9e00d5f7f70e346f8e6513467a72c5);
+            
+        
+
+        marker_1b9d33b1bc3434d99280f19ef36bbd5c.bindPopup(popup_31c9852defe5697d0c93e0a7010b7e19)
+        ;
+
+        
+    
+    
+                marker_1b9d33b1bc3434d99280f19ef36bbd5c.setIcon(icon_c0ca00b523d6cdf53d80b288fcc648da);
+            
+    
+            var marker_7a403ded0ee36906ea31615e2dab11fc = L.marker(
+                [-16.02341, -48.05124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_d9cafa2d41fb070a550b520025e16b41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05f18e852637a2a65bf7dbb3bf6a4600 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d174f8eacb0a17af422d0936b687f96c = $(`<div id="html_d174f8eacb0a17af422d0936b687f96c" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_05f18e852637a2a65bf7dbb3bf6a4600.setContent(html_d174f8eacb0a17af422d0936b687f96c);
+            
+        
+
+        marker_7a403ded0ee36906ea31615e2dab11fc.bindPopup(popup_05f18e852637a2a65bf7dbb3bf6a4600)
+        ;
+
+        
+    
+    
+                marker_7a403ded0ee36906ea31615e2dab11fc.setIcon(icon_d9cafa2d41fb070a550b520025e16b41);
+            
+    
+            var marker_052502ad4bb4d019c8d01e8687c0745f = L.marker(
+                [-15.68124, -47.81435],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_312749ea67bd834f6c0a2784339b3c44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6eb9075c62f21e52569f58e59ac4cc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75a82375d4afd59d842e47ae4de6c30d = $(`<div id="html_75a82375d4afd59d842e47ae4de6c30d" style="width: 100.0%; height: 100.0%;"> Campo Sintético Comunitário</div>`)[0];
+                popup_b6eb9075c62f21e52569f58e59ac4cc2.setContent(html_75a82375d4afd59d842e47ae4de6c30d);
+            
+        
+
+        marker_052502ad4bb4d019c8d01e8687c0745f.bindPopup(popup_b6eb9075c62f21e52569f58e59ac4cc2)
+        ;
+
+        
+    
+    
+                marker_052502ad4bb4d019c8d01e8687c0745f.setIcon(icon_312749ea67bd834f6c0a2784339b3c44);
+            
+    
+            var marker_b2746d4f35133d483d631bb6bc861128 = L.marker(
+                [-15.91432, -48.03124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_18ec1e707b9052e146c05ef7b635dac6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f24b528896949285ca298e2fd5a4746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62018371182cac0aee466f144c394f02 = $(`<div id="html_62018371182cac0aee466f144c394f02" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_4f24b528896949285ca298e2fd5a4746.setContent(html_62018371182cac0aee466f144c394f02);
+            
+        
+
+        marker_b2746d4f35133d483d631bb6bc861128.bindPopup(popup_4f24b528896949285ca298e2fd5a4746)
+        ;
+
+        
+    
+    
+                marker_b2746d4f35133d483d631bb6bc861128.setIcon(icon_18ec1e707b9052e146c05ef7b635dac6);
+            
+    
+            var marker_b97563bca936ab8a68763fcfd8e9e292 = L.marker(
+                [-15.67421, -48.20143],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c10203215505f16198b4822d78b927cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1160fc1e681fe499d2280e5056baccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b97a8b59c25923c37c6dd0f6dda971c = $(`<div id="html_4b97a8b59c25923c37c6dd0f6dda971c" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva Central</div>`)[0];
+                popup_f1160fc1e681fe499d2280e5056baccd.setContent(html_4b97a8b59c25923c37c6dd0f6dda971c);
+            
+        
+
+        marker_b97563bca936ab8a68763fcfd8e9e292.bindPopup(popup_f1160fc1e681fe499d2280e5056baccd)
+        ;
+
+        
+    
+    
+                marker_b97563bca936ab8a68763fcfd8e9e292.setIcon(icon_c10203215505f16198b4822d78b927cc);
+            
+    
+            var marker_ac9962881802a219b392a4382373fd25 = L.marker(
+                [-16.02841, -47.99842],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_dd6f93b51f104b0756d3170ef5e8951a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_666f9eb10847036e26c16a7280452b4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd38fdca924420ba7c70ad2f122948bc = $(`<div id="html_fd38fdca924420ba7c70ad2f122948bc" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_666f9eb10847036e26c16a7280452b4a.setContent(html_fd38fdca924420ba7c70ad2f122948bc);
+            
+        
+
+        marker_ac9962881802a219b392a4382373fd25.bindPopup(popup_666f9eb10847036e26c16a7280452b4a)
+        ;
+
+        
+    
+    
+                marker_ac9962881802a219b392a4382373fd25.setIcon(icon_dd6f93b51f104b0756d3170ef5e8951a);
+            
+    
+            var marker_bfae4b408c3181b134fd12dd4728553e = L.marker(
+                [-15.90831, -48.07421],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c8ff478c2e9495fb860666e15d485641 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00d8965acf893aecec1d36f75c6718b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f1faa33028dc57870a1ad64759ff0d9 = $(`<div id="html_2f1faa33028dc57870a1ad64759ff0d9" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei de Areia</div>`)[0];
+                popup_00d8965acf893aecec1d36f75c6718b4.setContent(html_2f1faa33028dc57870a1ad64759ff0d9);
+            
+        
+
+        marker_bfae4b408c3181b134fd12dd4728553e.bindPopup(popup_00d8965acf893aecec1d36f75c6718b4)
+        ;
+
+        
+    
+    
+                marker_bfae4b408c3181b134fd12dd4728553e.setIcon(icon_c8ff478c2e9495fb860666e15d485641);
+            
+    
+            var marker_ab6beaf9ccf04b1192b203f004dea2fe = L.marker(
+                [-15.75134, -47.87421],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_28f3cfbf7072820722b2541e6cdcc310 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24da2d8d16126e2e2653df6132181c90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1de0c73014eeac9f5efbfc50de5576c0 = $(`<div id="html_1de0c73014eeac9f5efbfc50de5576c0" style="width: 100.0%; height: 100.0%;"> Quadra de Padel</div>`)[0];
+                popup_24da2d8d16126e2e2653df6132181c90.setContent(html_1de0c73014eeac9f5efbfc50de5576c0);
+            
+        
+
+        marker_ab6beaf9ccf04b1192b203f004dea2fe.bindPopup(popup_24da2d8d16126e2e2653df6132181c90)
+        ;
+
+        
+    
+    
+                marker_ab6beaf9ccf04b1192b203f004dea2fe.setIcon(icon_28f3cfbf7072820722b2541e6cdcc310);
+            
+    
+            var marker_3399ea19f3620d41394793fb77525300 = L.marker(
+                [-15.76542, -47.88842],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1360748229d7f4e00ea440aab84195e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5f944316bf94fa1e3ef514094506905 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_335cd7d8fce2c52da2b2738444271d3b = $(`<div id="html_335cd7d8fce2c52da2b2738444271d3b" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol Infantil</div>`)[0];
+                popup_a5f944316bf94fa1e3ef514094506905.setContent(html_335cd7d8fce2c52da2b2738444271d3b);
+            
+        
+
+        marker_3399ea19f3620d41394793fb77525300.bindPopup(popup_a5f944316bf94fa1e3ef514094506905)
+        ;
+
+        
+    
+    
+                marker_3399ea19f3620d41394793fb77525300.setIcon(icon_1360748229d7f4e00ea440aab84195e4);
+            
+    
+            var marker_aa26cd90210d1c54266cea70458ced9e = L.marker(
+                [-15.83921, -48.00513],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_af3ae21367382c422a6fd75c95e7c695 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40c1f892dea18ddbb9f414c60a48a602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_addb2ac98c0f22b267b44e6dbae4e378 = $(`<div id="html_addb2ac98c0f22b267b44e6dbae4e378" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete 3x3</div>`)[0];
+                popup_40c1f892dea18ddbb9f414c60a48a602.setContent(html_addb2ac98c0f22b267b44e6dbae4e378);
+            
+        
+
+        marker_aa26cd90210d1c54266cea70458ced9e.bindPopup(popup_40c1f892dea18ddbb9f414c60a48a602)
+        ;
+
+        
+    
+    
+                marker_aa26cd90210d1c54266cea70458ced9e.setIcon(icon_af3ae21367382c422a6fd75c95e7c695);
+            
+    
+            var marker_9202776e101e80ee2b77b0b661fd0bcb = L.marker(
+                [-15.82841, -48.03421],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f937f6e20edbcd4cdc75ea4a4b1a8acf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02cb9825153321dc47bef9ae4b89251a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90abcd7a33406f46fe84cd0526d9ae26 = $(`<div id="html_90abcd7a33406f46fe84cd0526d9ae26" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis Rápida</div>`)[0];
+                popup_02cb9825153321dc47bef9ae4b89251a.setContent(html_90abcd7a33406f46fe84cd0526d9ae26);
+            
+        
+
+        marker_9202776e101e80ee2b77b0b661fd0bcb.bindPopup(popup_02cb9825153321dc47bef9ae4b89251a)
+        ;
+
+        
+    
+    
+                marker_9202776e101e80ee2b77b0b661fd0bcb.setIcon(icon_f937f6e20edbcd4cdc75ea4a4b1a8acf);
+            
+    
+            var marker_b703aff2998dfec475edd2ac2733c2d6 = L.marker(
+                [-15.83412, -48.05312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_fb06550e68deab823f4c8925a7c1ad26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56ed26d605ce4c181571ade7dfff6431 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f8b5493f41e55f10c5878210e85ce4f = $(`<div id="html_4f8b5493f41e55f10c5878210e85ce4f" style="width: 100.0%; height: 100.0%;"> Quadra de Beach Tennis (rooftop)</div>`)[0];
+                popup_56ed26d605ce4c181571ade7dfff6431.setContent(html_4f8b5493f41e55f10c5878210e85ce4f);
+            
+        
+
+        marker_b703aff2998dfec475edd2ac2733c2d6.bindPopup(popup_56ed26d605ce4c181571ade7dfff6431)
+        ;
+
+        
+    
+    
+                marker_b703aff2998dfec475edd2ac2733c2d6.setIcon(icon_fb06550e68deab823f4c8925a7c1ad26);
+            
+    
+            var marker_9e071eb24dd165c2089ab67e2dc76eb4 = L.marker(
+                [-15.80521, -47.92013],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_fe2499d1d4210f44b9a81f503fefaead = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e57f9304ccdb2cb1fcb2e589295662b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66fd2d2685a1586444f62a1143ffbb7b = $(`<div id="html_66fd2d2685a1586444f62a1143ffbb7b" style="width: 100.0%; height: 100.0%;"> Pista de Skate</div>`)[0];
+                popup_3e57f9304ccdb2cb1fcb2e589295662b.setContent(html_66fd2d2685a1586444f62a1143ffbb7b);
+            
+        
+
+        marker_9e071eb24dd165c2089ab67e2dc76eb4.bindPopup(popup_3e57f9304ccdb2cb1fcb2e589295662b)
+        ;
+
+        
+    
+    
+                marker_9e071eb24dd165c2089ab67e2dc76eb4.setIcon(icon_fe2499d1d4210f44b9a81f503fefaead);
+            
+    
+            var marker_843b7f5d2088391b93f29f54b53dd445 = L.marker(
+                [-15.79421, -47.93141],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1a065c187bc5a1be5511b3f23b843db7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f552a8b88fce92dbf7150aefed43445b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96911400d0fb7ea4c730207395deba33 = $(`<div id="html_96911400d0fb7ea4c730207395deba33" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_f552a8b88fce92dbf7150aefed43445b.setContent(html_96911400d0fb7ea4c730207395deba33);
+            
+        
+
+        marker_843b7f5d2088391b93f29f54b53dd445.bindPopup(popup_f552a8b88fce92dbf7150aefed43445b)
+        ;
+
+        
+    
+    
+                marker_843b7f5d2088391b93f29f54b53dd445.setIcon(icon_1a065c187bc5a1be5511b3f23b843db7);
+            
+    
+            var marker_c4c94fe9bd769c296df08696c8ac37d0 = L.marker(
+                [-15.86431, -48.12013],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8218fa391fa545a5bae8c594f848729b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6925eb77d8519a7760fc342f97536c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ce6f7b803d23f09405e84636467e7c1 = $(`<div id="html_2ce6f7b803d23f09405e84636467e7c1" style="width: 100.0%; height: 100.0%;"> Pista de Atletismo</div>`)[0];
+                popup_6925eb77d8519a7760fc342f97536c74.setContent(html_2ce6f7b803d23f09405e84636467e7c1);
+            
+        
+
+        marker_c4c94fe9bd769c296df08696c8ac37d0.bindPopup(popup_6925eb77d8519a7760fc342f97536c74)
+        ;
+
+        
+    
+    
+                marker_c4c94fe9bd769c296df08696c8ac37d0.setIcon(icon_8218fa391fa545a5bae8c594f848729b);
+            
+    
+            var marker_834ae080762ae4d271b4458559db7189 = L.marker(
+                [-15.83142, -48.13421],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0f66d72672bf6c99896679321b4dae44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4e0db769488b65bbce6a44896d1d41d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a2ce80ceb90ef1ada1469c62d84e81b = $(`<div id="html_7a2ce80ceb90ef1ada1469c62d84e81b" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_a4e0db769488b65bbce6a44896d1d41d.setContent(html_7a2ce80ceb90ef1ada1469c62d84e81b);
+            
+        
+
+        marker_834ae080762ae4d271b4458559db7189.bindPopup(popup_a4e0db769488b65bbce6a44896d1d41d)
+        ;
+
+        
+    
+    
+                marker_834ae080762ae4d271b4458559db7189.setIcon(icon_0f66d72672bf6c99896679321b4dae44);
+            
+    
+            var marker_67780673b131f28d61b5ce604c255154 = L.marker(
+                [-15.82241, -47.88513],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8d0c2fb86a244fa7306dd079803bbfaa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5189c3b0d461aeb0d84662c4279f563c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d84fcc52b82b5cc3393bf06565d06452 = $(`<div id="html_d84fcc52b82b5cc3393bf06565d06452" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_5189c3b0d461aeb0d84662c4279f563c.setContent(html_d84fcc52b82b5cc3393bf06565d06452);
+            
+        
+
+        marker_67780673b131f28d61b5ce604c255154.bindPopup(popup_5189c3b0d461aeb0d84662c4279f563c)
+        ;
+
+        
+    
+    
+                marker_67780673b131f28d61b5ce604c255154.setIcon(icon_8d0c2fb86a244fa7306dd079803bbfaa);
+            
+    
+            var marker_ba5ee44218b01f2802fb033722698996 = L.marker(
+                [-15.75831, -47.90921],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_64ccd88aefb8c474c97ac874b0d0b500 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_adbbf9796d5b1da280f972b45fec65f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6798f9d09dc16154659e184b1e91edc3 = $(`<div id="html_6798f9d09dc16154659e184b1e91edc3" style="width: 100.0%; height: 100.0%;"> Quadra de Squash</div>`)[0];
+                popup_adbbf9796d5b1da280f972b45fec65f7.setContent(html_6798f9d09dc16154659e184b1e91edc3);
+            
+        
+
+        marker_ba5ee44218b01f2802fb033722698996.bindPopup(popup_adbbf9796d5b1da280f972b45fec65f7)
+        ;
+
+        
+    
+    
+                marker_ba5ee44218b01f2802fb033722698996.setIcon(icon_64ccd88aefb8c474c97ac874b0d0b500);
+            
+    
+            var marker_e7741caa9d73ab0ad441642b9decf832 = L.marker(
+                [-16.03124, -48.07213],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_66754c5e5df6a6936f03612e3a2d74b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_baf091d47b8b9561457a6348a4ab0361 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9420dc6d58bdf9f49ee5b5eaccdc04c4 = $(`<div id="html_9420dc6d58bdf9f49ee5b5eaccdc04c4" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis de Parede</div>`)[0];
+                popup_baf091d47b8b9561457a6348a4ab0361.setContent(html_9420dc6d58bdf9f49ee5b5eaccdc04c4);
+            
+        
+
+        marker_e7741caa9d73ab0ad441642b9decf832.bindPopup(popup_baf091d47b8b9561457a6348a4ab0361)
+        ;
+
+        
+    
+    
+                marker_e7741caa9d73ab0ad441642b9decf832.setIcon(icon_66754c5e5df6a6936f03612e3a2d74b4);
+            
+    
+            var marker_3b26ed39311daa47ac69cba6c4f5074d = L.marker(
+                [-15.79321, -47.89842],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_5ece89e96cf318191c4bbc1c306647bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0ea6137634159e38003e8043d8a210c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8a13451cfec078890dcc7875af2ae39 = $(`<div id="html_e8a13451cfec078890dcc7875af2ae39" style="width: 100.0%; height: 100.0%;"> Quadra de Futevôlei</div>`)[0];
+                popup_f0ea6137634159e38003e8043d8a210c.setContent(html_e8a13451cfec078890dcc7875af2ae39);
+            
+        
+
+        marker_3b26ed39311daa47ac69cba6c4f5074d.bindPopup(popup_f0ea6137634159e38003e8043d8a210c)
+        ;
+
+        
+    
+    
+                marker_3b26ed39311daa47ac69cba6c4f5074d.setIcon(icon_5ece89e96cf318191c4bbc1c306647bd);
+            
+    
+            var marker_d2abdfef7fdfac95585da1404ecd5640 = L.marker(
+                [-15.78912, -48.04132],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2017b83af75e3c8864ce09a35a0e21fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fca04e49d8e919151748f0f9afe0666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f284a76b26ecbb237ce2343d8ea662 = $(`<div id="html_16f284a76b26ecbb237ce2343d8ea662" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol Society</div>`)[0];
+                popup_8fca04e49d8e919151748f0f9afe0666.setContent(html_16f284a76b26ecbb237ce2343d8ea662);
+            
+        
+
+        marker_d2abdfef7fdfac95585da1404ecd5640.bindPopup(popup_8fca04e49d8e919151748f0f9afe0666)
+        ;
+
+        
+    
+    
+                marker_d2abdfef7fdfac95585da1404ecd5640.setIcon(icon_2017b83af75e3c8864ce09a35a0e21fd);
+            
+    
+            var marker_a3a7613fff9d1a5003b1cb0c1cdd3925 = L.marker(
+                [-15.89421, -47.81531],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_e9b37fcdf635872280d59d4c3471d97d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b245ea6d0806b42f1f20207f0949cb99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_255451a76a369d557a962c061e756f59 = $(`<div id="html_255451a76a369d557a962c061e756f59" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_b245ea6d0806b42f1f20207f0949cb99.setContent(html_255451a76a369d557a962c061e756f59);
+            
+        
+
+        marker_a3a7613fff9d1a5003b1cb0c1cdd3925.bindPopup(popup_b245ea6d0806b42f1f20207f0949cb99)
+        ;
+
+        
+    
+    
+                marker_a3a7613fff9d1a5003b1cb0c1cdd3925.setIcon(icon_e9b37fcdf635872280d59d4c3471d97d);
+            
+    
+            var marker_32001a117cad292ad4853185ecc9b218 = L.marker(
+                [-15.76312, -47.78124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_456c6c4a4bb76072ceba4dd7069e5155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1107bca2d95ccd55fbb09218268a2a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8f853c840010c4d2f4731269ba23ecb = $(`<div id="html_d8f853c840010c4d2f4731269ba23ecb" style="width: 100.0%; height: 100.0%;"> Campo de Terra Batida</div>`)[0];
+                popup_e1107bca2d95ccd55fbb09218268a2a1.setContent(html_d8f853c840010c4d2f4731269ba23ecb);
+            
+        
+
+        marker_32001a117cad292ad4853185ecc9b218.bindPopup(popup_e1107bca2d95ccd55fbb09218268a2a1)
+        ;
+
+        
+    
+    
+                marker_32001a117cad292ad4853185ecc9b218.setIcon(icon_456c6c4a4bb76072ceba4dd7069e5155);
+            
+    
+            var marker_fbfc0216a2e7ca668434b421590179a2 = L.marker(
+                [-15.85421, -47.94531],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_d95642d14d72307b7af9d3499f0a7a75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_816c2f2a5b1aaa3c817c8cc9daa08040 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bee63518ade10861fb47d045960b5785 = $(`<div id="html_bee63518ade10861fb47d045960b5785" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei</div>`)[0];
+                popup_816c2f2a5b1aaa3c817c8cc9daa08040.setContent(html_bee63518ade10861fb47d045960b5785);
+            
+        
+
+        marker_fbfc0216a2e7ca668434b421590179a2.bindPopup(popup_816c2f2a5b1aaa3c817c8cc9daa08040)
+        ;
+
+        
+    
+    
+                marker_fbfc0216a2e7ca668434b421590179a2.setIcon(icon_d95642d14d72307b7af9d3499f0a7a75);
+            
+    
+            var marker_c31e46d796456aff6d0b2ff6d13aa437 = L.marker(
+                [-15.76213, -47.88931],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_d9ef294ed3b30c038ee9c4ca8f2ce46e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_978801bacdf7cead0db57d4ec3036260 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_157ac49ca9a9f967e241bd6e7631e582 = $(`<div id="html_157ac49ca9a9f967e241bd6e7631e582" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_978801bacdf7cead0db57d4ec3036260.setContent(html_157ac49ca9a9f967e241bd6e7631e582);
+            
+        
+
+        marker_c31e46d796456aff6d0b2ff6d13aa437.bindPopup(popup_978801bacdf7cead0db57d4ec3036260)
+        ;
+
+        
+    
+    
+                marker_c31e46d796456aff6d0b2ff6d13aa437.setIcon(icon_d9ef294ed3b30c038ee9c4ca8f2ce46e);
+            
+    
+            var marker_e30438f430895071385743478d57d277 = L.marker(
+                [-15.87512, -48.00312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c114290efa6cb3d7659107040f2bf293 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d44a8801b25424c86792ae86985aee25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8c854236e8a281fb6d75a01da054669 = $(`<div id="html_e8c854236e8a281fb6d75a01da054669" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_d44a8801b25424c86792ae86985aee25.setContent(html_e8c854236e8a281fb6d75a01da054669);
+            
+        
+
+        marker_e30438f430895071385743478d57d277.bindPopup(popup_d44a8801b25424c86792ae86985aee25)
+        ;
+
+        
+    
+    
+                marker_e30438f430895071385743478d57d277.setIcon(icon_c114290efa6cb3d7659107040f2bf293);
+            
+    
+            var marker_48e7e8418d029b0523589f525c35cfda = L.marker(
+                [-15.69421, -47.82813],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_dd3563a275fe5773af15f1e966c3c40b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e69319c82e2b237697c9e8eac667ddc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae5206cfc0d5e7550d75ee25a90dd48f = $(`<div id="html_ae5206cfc0d5e7550d75ee25a90dd48f" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis</div>`)[0];
+                popup_e69319c82e2b237697c9e8eac667ddc4.setContent(html_ae5206cfc0d5e7550d75ee25a90dd48f);
+            
+        
+
+        marker_48e7e8418d029b0523589f525c35cfda.bindPopup(popup_e69319c82e2b237697c9e8eac667ddc4)
+        ;
+
+        
+    
+    
+                marker_48e7e8418d029b0523589f525c35cfda.setIcon(icon_dd3563a275fe5773af15f1e966c3c40b);
+            
+    
+            var marker_5730b33c2e4c03e7eeab393185b6336a = L.marker(
+                [-15.83712, -48.04921],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_20b16b4d914e6c8971cc77c8f5de8925 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f25794fac27b8822600dfef5500fac80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c344d57b67d413891e59176e4b5908f = $(`<div id="html_6c344d57b67d413891e59176e4b5908f" style="width: 100.0%; height: 100.0%;"> Quadra de Basquete</div>`)[0];
+                popup_f25794fac27b8822600dfef5500fac80.setContent(html_6c344d57b67d413891e59176e4b5908f);
+            
+        
+
+        marker_5730b33c2e4c03e7eeab393185b6336a.bindPopup(popup_f25794fac27b8822600dfef5500fac80)
+        ;
+
+        
+    
+    
+                marker_5730b33c2e4c03e7eeab393185b6336a.setIcon(icon_20b16b4d914e6c8971cc77c8f5de8925);
+            
+    
+            var marker_dc15794deaecdc99686b2c2cd4fdaec5 = L.marker(
+                [-15.81132, -47.99013],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2f5c3b34768096ea9885c69009128002 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b10061fd2542cc485548537aa3fa2c1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fc43c5a655d8be62f02923af20ebeb6 = $(`<div id="html_3fc43c5a655d8be62f02923af20ebeb6" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis de Saibro</div>`)[0];
+                popup_b10061fd2542cc485548537aa3fa2c1a.setContent(html_3fc43c5a655d8be62f02923af20ebeb6);
+            
+        
+
+        marker_dc15794deaecdc99686b2c2cd4fdaec5.bindPopup(popup_b10061fd2542cc485548537aa3fa2c1a)
+        ;
+
+        
+    
+    
+                marker_dc15794deaecdc99686b2c2cd4fdaec5.setIcon(icon_2f5c3b34768096ea9885c69009128002);
+            
+    
+            var marker_35500f023ad8f330d2c8382f5ce43a35 = L.marker(
+                [-15.83621, -48.02431],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f6d5bf626befc4df7b5bba4df8534545 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8852096fe9c1be54d1b6a7d1a95dfd38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d16c3018c9d4cd25de1c578423adc33 = $(`<div id="html_9d16c3018c9d4cd25de1c578423adc33" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_8852096fe9c1be54d1b6a7d1a95dfd38.setContent(html_9d16c3018c9d4cd25de1c578423adc33);
+            
+        
+
+        marker_35500f023ad8f330d2c8382f5ce43a35.bindPopup(popup_8852096fe9c1be54d1b6a7d1a95dfd38)
+        ;
+
+        
+    
+    
+                marker_35500f023ad8f330d2c8382f5ce43a35.setIcon(icon_f6d5bf626befc4df7b5bba4df8534545);
+            
+    
+            var marker_a8eabc3f340a86948b7120a21577052e = L.marker(
+                [-15.88512, -48.11421],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_18a4aadb2a906ec81587b3369c299324 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ff1468c67f256233f0a46e94d644b9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75aa59d96fc12b12daa411db1febf117 = $(`<div id="html_75aa59d96fc12b12daa411db1febf117" style="width: 100.0%; height: 100.0%;"> Quadra de Futebol de Areia</div>`)[0];
+                popup_8ff1468c67f256233f0a46e94d644b9e.setContent(html_75aa59d96fc12b12daa411db1febf117);
+            
+        
+
+        marker_a8eabc3f340a86948b7120a21577052e.bindPopup(popup_8ff1468c67f256233f0a46e94d644b9e)
+        ;
+
+        
+    
+    
+                marker_a8eabc3f340a86948b7120a21577052e.setIcon(icon_18a4aadb2a906ec81587b3369c299324);
+            
+    
+            var marker_4ec7773136ff6a65635a1883dc99fe58 = L.marker(
+                [-15.79812, -47.93921],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_956704528a16b94f03a99f7ef4e0a4d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d591a0523205addefcf2c4dcf4864d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9cb2dbba6c8f11da0e5a17ac944d9cd = $(`<div id="html_a9cb2dbba6c8f11da0e5a17ac944d9cd" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_6d591a0523205addefcf2c4dcf4864d1.setContent(html_a9cb2dbba6c8f11da0e5a17ac944d9cd);
+            
+        
+
+        marker_4ec7773136ff6a65635a1883dc99fe58.bindPopup(popup_6d591a0523205addefcf2c4dcf4864d1)
+        ;
+
+        
+    
+    
+                marker_4ec7773136ff6a65635a1883dc99fe58.setIcon(icon_956704528a16b94f03a99f7ef4e0a4d7);
+            
+    
+            var marker_6f8854f8c5e958903f3b697f61a8354a = L.marker(
+                [-15.86213, -47.83812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0b256c17573c08c34e4aeb1c370587b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc9ce8acf270488eb461b895badc1c8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdce91c54ea7af4c0c10e22d64906625 = $(`<div id="html_bdce91c54ea7af4c0c10e22d64906625" style="width: 100.0%; height: 100.0%;"> Pista de Skate (Bowl)</div>`)[0];
+                popup_dc9ce8acf270488eb461b895badc1c8b.setContent(html_bdce91c54ea7af4c0c10e22d64906625);
+            
+        
+
+        marker_6f8854f8c5e958903f3b697f61a8354a.bindPopup(popup_dc9ce8acf270488eb461b895badc1c8b)
+        ;
+
+        
+    
+    
+                marker_6f8854f8c5e958903f3b697f61a8354a.setIcon(icon_0b256c17573c08c34e4aeb1c370587b1);
+            
+    
+            var marker_bc02fa2522894b04212251f91cd9f556 = L.marker(
+                [-15.80121, -47.91312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_7b47250a8a530a56607aa59bb40089ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac0576fb43a009f0778652d9f576cab0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bec19e546258e5628dca46b3c680b2df = $(`<div id="html_bec19e546258e5628dca46b3c680b2df" style="width: 100.0%; height: 100.0%;"> Quadra de Peteca</div>`)[0];
+                popup_ac0576fb43a009f0778652d9f576cab0.setContent(html_bec19e546258e5628dca46b3c680b2df);
+            
+        
+
+        marker_bc02fa2522894b04212251f91cd9f556.bindPopup(popup_ac0576fb43a009f0778652d9f576cab0)
+        ;
+
+        
+    
+    
+                marker_bc02fa2522894b04212251f91cd9f556.setIcon(icon_7b47250a8a530a56607aa59bb40089ee);
+            
+    
+            var marker_57db28e6b5c6dde0207e5afcc783743f = L.marker(
+                [-15.81912, -47.89121],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_048417bc2c0540fd56e40c243b029e28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0520673a3d01315c245c2f76db594e53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b562a1593ca1d4b98da79fb3e308da2 = $(`<div id="html_7b562a1593ca1d4b98da79fb3e308da2" style="width: 100.0%; height: 100.0%;"> Campo de Futebol Society</div>`)[0];
+                popup_0520673a3d01315c245c2f76db594e53.setContent(html_7b562a1593ca1d4b98da79fb3e308da2);
+            
+        
+
+        marker_57db28e6b5c6dde0207e5afcc783743f.bindPopup(popup_0520673a3d01315c245c2f76db594e53)
+        ;
+
+        
+    
+    
+                marker_57db28e6b5c6dde0207e5afcc783743f.setIcon(icon_048417bc2c0540fd56e40c243b029e28);
+            
+    
+            var marker_bbd9eefc8d602bb9d0e692fd2305a3dd = L.marker(
+                [-15.76512, -47.90512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_4eb18e554aef138d553d6ddfb1af8c9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01facea89827640381c4c5ac33778371 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faba1efb133b5457b5e9f858d5698529 = $(`<div id="html_faba1efb133b5457b5e9f858d5698529" style="width: 100.0%; height: 100.0%;"> Quadra de Vôlei de Praia</div>`)[0];
+                popup_01facea89827640381c4c5ac33778371.setContent(html_faba1efb133b5457b5e9f858d5698529);
+            
+        
+
+        marker_bbd9eefc8d602bb9d0e692fd2305a3dd.bindPopup(popup_01facea89827640381c4c5ac33778371)
+        ;
+
+        
+    
+    
+                marker_bbd9eefc8d602bb9d0e692fd2305a3dd.setIcon(icon_4eb18e554aef138d553d6ddfb1af8c9d);
+            
+    
+            var marker_e3a096d10c439fdea2864aece4aecbad = L.marker(
+                [-16.02121, -48.08121],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_ebc0b98511d1cd1426beed4aaf159710 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7da18566ebc965154d64121dbe86f71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_163e1b9d3c0451e4a007caac291036c9 = $(`<div id="html_163e1b9d3c0451e4a007caac291036c9" style="width: 100.0%; height: 100.0%;"> Quadra Poliesportiva</div>`)[0];
+                popup_f7da18566ebc965154d64121dbe86f71.setContent(html_163e1b9d3c0451e4a007caac291036c9);
+            
+        
+
+        marker_e3a096d10c439fdea2864aece4aecbad.bindPopup(popup_f7da18566ebc965154d64121dbe86f71)
+        ;
+
+        
+    
+    
+                marker_e3a096d10c439fdea2864aece4aecbad.setIcon(icon_ebc0b98511d1cd1426beed4aaf159710);
+            
+    
+            var marker_e8ecc2938352c5605b05fc3719b871c6 = L.marker(
+                [-15.80421, -48.15121],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_28f9b6841be54d940b6495990b83ad7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b745206259b003b797037b4d16be7d7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e382d1b376993d0542784855ce1a5d5 = $(`<div id="html_8e382d1b376993d0542784855ce1a5d5" style="width: 100.0%; height: 100.0%;"> Campo Sintético</div>`)[0];
+                popup_b745206259b003b797037b4d16be7d7d.setContent(html_8e382d1b376993d0542784855ce1a5d5);
+            
+        
+
+        marker_e8ecc2938352c5605b05fc3719b871c6.bindPopup(popup_b745206259b003b797037b4d16be7d7d)
+        ;
+
+        
+    
+    
+                marker_e8ecc2938352c5605b05fc3719b871c6.setIcon(icon_28f9b6841be54d940b6495990b83ad7b);
+            
+    
+            var marker_e57548b37be22dad8d4d3c3fb9c9564b = L.marker(
+                [-15.80912, -47.86812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_30ef84e6825160f2a07e5a6f3380f8ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56ddc5ab8174ed79f84ce9e402d3ca25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82020187c3f65cfae83bf431265127cb = $(`<div id="html_82020187c3f65cfae83bf431265127cb" style="width: 100.0%; height: 100.0%;"> Quadra de Tênis</div>`)[0];
+                popup_56ddc5ab8174ed79f84ce9e402d3ca25.setContent(html_82020187c3f65cfae83bf431265127cb);
+            
+        
+
+        marker_e57548b37be22dad8d4d3c3fb9c9564b.bindPopup(popup_56ddc5ab8174ed79f84ce9e402d3ca25)
+        ;
+
+        
+    
+    
+                marker_e57548b37be22dad8d4d3c3fb9c9564b.setIcon(icon_30ef84e6825160f2a07e5a6f3380f8ce);
+            
+    
+            var marker_e8bb2623b8a05a688009194753749d54 = L.marker(
+                [-15.81436, -48.09312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_a5b660dbdc0491a5428c78d1b3afea7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41ae848927e065ac2616a28bdba1fc6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04bf73b10edb23f333662647d8e04e8c = $(`<div id="html_04bf73b10edb23f333662647d8e04e8c" style="width: 100.0%; height: 100.0%;">Taguatinga</div>`)[0];
+                popup_41ae848927e065ac2616a28bdba1fc6b.setContent(html_04bf73b10edb23f333662647d8e04e8c);
+            
+        
+
+        marker_e8bb2623b8a05a688009194753749d54.bindPopup(popup_41ae848927e065ac2616a28bdba1fc6b)
+        ;
+
+        
+    
+    
+                marker_e8bb2623b8a05a688009194753749d54.setIcon(icon_a5b660dbdc0491a5428c78d1b3afea7c);
+            
+    
+            var marker_f0b133ee853b64173f373254c70018a3 = L.marker(
+                [-15.76015, -47.89242],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f276e3e9e90c5f82ce89a9d7558a12a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7b5a468dc03a72e616f1be55c00339a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8dada56dbf4632ee597b4ca67d0c5ae = $(`<div id="html_f8dada56dbf4632ee597b4ca67d0c5ae" style="width: 100.0%; height: 100.0%;">Asa Norte</div>`)[0];
+                popup_f7b5a468dc03a72e616f1be55c00339a.setContent(html_f8dada56dbf4632ee597b4ca67d0c5ae);
+            
+        
+
+        marker_f0b133ee853b64173f373254c70018a3.bindPopup(popup_f7b5a468dc03a72e616f1be55c00339a)
+        ;
+
+        
+    
+    
+                marker_f0b133ee853b64173f373254c70018a3.setIcon(icon_f276e3e9e90c5f82ce89a9d7558a12a7);
+            
+    
+            var marker_32e925d833e440f69e3c24a90e6832ac = L.marker(
+                [-15.82056, -47.87833],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_9a9e49042da3d4107350a68682bef219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_475caaf0547556cc3b57776388558409 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4720391f2f4c173ff35c271e9067bd55 = $(`<div id="html_4720391f2f4c173ff35c271e9067bd55" style="width: 100.0%; height: 100.0%;">Plano Piloto</div>`)[0];
+                popup_475caaf0547556cc3b57776388558409.setContent(html_4720391f2f4c173ff35c271e9067bd55);
+            
+        
+
+        marker_32e925d833e440f69e3c24a90e6832ac.bindPopup(popup_475caaf0547556cc3b57776388558409)
+        ;
+
+        
+    
+    
+                marker_32e925d833e440f69e3c24a90e6832ac.setIcon(icon_9a9e49042da3d4107350a68682bef219);
+            
+    
+            var marker_03e1f29a5f36e7153e06aaa5d30b3cc8 = L.marker(
+                [-15.81156, -47.98971],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_78d1929de6b902bce6b19f8b825561af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_046e394cff735641accbdecdc0c5d59a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3aa7b49773ebd76bb729c52081fa1a9 = $(`<div id="html_f3aa7b49773ebd76bb729c52081fa1a9" style="width: 100.0%; height: 100.0%;">Guará I</div>`)[0];
+                popup_046e394cff735641accbdecdc0c5d59a.setContent(html_f3aa7b49773ebd76bb729c52081fa1a9);
+            
+        
+
+        marker_03e1f29a5f36e7153e06aaa5d30b3cc8.bindPopup(popup_046e394cff735641accbdecdc0c5d59a)
+        ;
+
+        
+    
+    
+                marker_03e1f29a5f36e7153e06aaa5d30b3cc8.setIcon(icon_78d1929de6b902bce6b19f8b825561af);
+            
+    
+            var marker_c8349856709a3dc32081029bdbdb5ac4 = L.marker(
+                [-15.79743, -47.94056],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_4d5667fa95df30b877308576c9b1abb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9e87107e132a95cf995b669c957b51c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa0cc5dc9e027435fa29ba816496b8ed = $(`<div id="html_fa0cc5dc9e027435fa29ba816496b8ed" style="width: 100.0%; height: 100.0%;">Cruzeiro Novo</div>`)[0];
+                popup_a9e87107e132a95cf995b669c957b51c.setContent(html_fa0cc5dc9e027435fa29ba816496b8ed);
+            
+        
+
+        marker_c8349856709a3dc32081029bdbdb5ac4.bindPopup(popup_a9e87107e132a95cf995b669c957b51c)
+        ;
+
+        
+    
+    
+                marker_c8349856709a3dc32081029bdbdb5ac4.setIcon(icon_4d5667fa95df30b877308576c9b1abb3);
+            
+    
+            var marker_8da0326b691417fa52761209d6af3ac3 = L.marker(
+                [-15.65481, -47.79135],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_aa1c52215df6f238967dd517a333ebe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08c17f9b528e023748fc3aafc9a870db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2650199a7e3e7eb69958d8ca3bb09321 = $(`<div id="html_2650199a7e3e7eb69958d8ca3bb09321" style="width: 100.0%; height: 100.0%;">Sobradinho</div>`)[0];
+                popup_08c17f9b528e023748fc3aafc9a870db.setContent(html_2650199a7e3e7eb69958d8ca3bb09321);
+            
+        
+
+        marker_8da0326b691417fa52761209d6af3ac3.bindPopup(popup_08c17f9b528e023748fc3aafc9a870db)
+        ;
+
+        
+    
+    
+                marker_8da0326b691417fa52761209d6af3ac3.setIcon(icon_aa1c52215df6f238967dd517a333ebe4);
+            
+    
+            var marker_01cd5a8036b6adb9387e4b065a571f9c = L.marker(
+                [-16.01452, -48.06544],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0035c2892103f4dde41359f16db9a073 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_100386b0176e09f5814c09395c89f2bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0610c2e88fae4457c6763ad57adc7785 = $(`<div id="html_0610c2e88fae4457c6763ad57adc7785" style="width: 100.0%; height: 100.0%;">Gama</div>`)[0];
+                popup_100386b0176e09f5814c09395c89f2bf.setContent(html_0610c2e88fae4457c6763ad57adc7785);
+            
+        
+
+        marker_01cd5a8036b6adb9387e4b065a571f9c.bindPopup(popup_100386b0176e09f5814c09395c89f2bf)
+        ;
+
+        
+    
+    
+                marker_01cd5a8036b6adb9387e4b065a571f9c.setIcon(icon_0035c2892103f4dde41359f16db9a073);
+            
+    
+            var marker_55a3e0ee5344d64e4c622b0bd47cdfae = L.marker(
+                [-15.82173, -48.10951],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_95cd0b88a99f3553666c9fa15f8ecc98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6faa5f29039f0ec42ec0fe9559ab49e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81fb7554c0755676935781f70c18d4ff = $(`<div id="html_81fb7554c0755676935781f70c18d4ff" style="width: 100.0%; height: 100.0%;">Ceilândia Sul</div>`)[0];
+                popup_b6faa5f29039f0ec42ec0fe9559ab49e.setContent(html_81fb7554c0755676935781f70c18d4ff);
+            
+        
+
+        marker_55a3e0ee5344d64e4c622b0bd47cdfae.bindPopup(popup_b6faa5f29039f0ec42ec0fe9559ab49e)
+        ;
+
+        
+    
+    
+                marker_55a3e0ee5344d64e4c622b0bd47cdfae.setIcon(icon_95cd0b88a99f3553666c9fa15f8ecc98);
+            
+    
+            var marker_0fd071c160075be8ab1f72f08c9da7ca = L.marker(
+                [-15.83351, -48.01987],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_835a1620d6485fdbf4577d5a30b838ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_150e0a682c87801bef1020529c20962b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cafca1f6447bb95dff7066c2806f199c = $(`<div id="html_cafca1f6447bb95dff7066c2806f199c" style="width: 100.0%; height: 100.0%;">Águas Claras</div>`)[0];
+                popup_150e0a682c87801bef1020529c20962b.setContent(html_cafca1f6447bb95dff7066c2806f199c);
+            
+        
+
+        marker_0fd071c160075be8ab1f72f08c9da7ca.bindPopup(popup_150e0a682c87801bef1020529c20962b)
+        ;
+
+        
+    
+    
+                marker_0fd071c160075be8ab1f72f08c9da7ca.setIcon(icon_835a1620d6485fdbf4577d5a30b838ba);
+            
+    
+            var marker_a446b66653df088372b27fc1a51ef2d6 = L.marker(
+                [-15.80184, -47.91752],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_66d795dd47368c35dc002e33abc80d80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfd5fa48ab8aa246153a6993f05d0ee3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58c27084dbe41c5b7b8ab63a99a0daf9 = $(`<div id="html_58c27084dbe41c5b7b8ab63a99a0daf9" style="width: 100.0%; height: 100.0%;">Sudoeste</div>`)[0];
+                popup_dfd5fa48ab8aa246153a6993f05d0ee3.setContent(html_58c27084dbe41c5b7b8ab63a99a0daf9);
+            
+        
+
+        marker_a446b66653df088372b27fc1a51ef2d6.bindPopup(popup_dfd5fa48ab8aa246153a6993f05d0ee3)
+        ;
+
+        
+    
+    
+                marker_a446b66653df088372b27fc1a51ef2d6.setIcon(icon_66d795dd47368c35dc002e33abc80d80);
+            
+    
+            var marker_3c0d5b26820ee850e4e6076fbd7f62c2 = L.marker(
+                [-15.83245, -48.03872],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_ca781f92d98a1f850bbe88770b0c92be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7bacc31ea5824827def02cdab6411b44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32ec0c538f6389228ac9bb7269401751 = $(`<div id="html_32ec0c538f6389228ac9bb7269401751" style="width: 100.0%; height: 100.0%;">Taguatinga</div>`)[0];
+                popup_7bacc31ea5824827def02cdab6411b44.setContent(html_32ec0c538f6389228ac9bb7269401751);
+            
+        
+
+        marker_3c0d5b26820ee850e4e6076fbd7f62c2.bindPopup(popup_7bacc31ea5824827def02cdab6411b44)
+        ;
+
+        
+    
+    
+                marker_3c0d5b26820ee850e4e6076fbd7f62c2.setIcon(icon_ca781f92d98a1f850bbe88770b0c92be);
+            
+    
+            var marker_078d97f73866fc104685dbc539161174 = L.marker(
+                [-15.82031, -47.89945],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_b8a3869c2dec95e1e2be88bcff76a1f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbb9abaea2de98eef228bee9ba6d5897 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce36e31806dfcb2eeb709fac27213d59 = $(`<div id="html_ce36e31806dfcb2eeb709fac27213d59" style="width: 100.0%; height: 100.0%;">Asa Sul</div>`)[0];
+                popup_cbb9abaea2de98eef228bee9ba6d5897.setContent(html_ce36e31806dfcb2eeb709fac27213d59);
+            
+        
+
+        marker_078d97f73866fc104685dbc539161174.bindPopup(popup_cbb9abaea2de98eef228bee9ba6d5897)
+        ;
+
+        
+    
+    
+                marker_078d97f73866fc104685dbc539161174.setIcon(icon_b8a3869c2dec95e1e2be88bcff76a1f0);
+            
+    
+            var marker_a9f19b7be1e514a4bc7cf2a01abe1730 = L.marker(
+                [-15.85024, -48.11743],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_19582a7e92f5579c29f9903811b00e91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fba8bc8aec562186759dcd37cb439087 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32e020b18d698ac195e4a89771ed0d8c = $(`<div id="html_32e020b18d698ac195e4a89771ed0d8c" style="width: 100.0%; height: 100.0%;">Samambaia Norte</div>`)[0];
+                popup_fba8bc8aec562186759dcd37cb439087.setContent(html_32e020b18d698ac195e4a89771ed0d8c);
+            
+        
+
+        marker_a9f19b7be1e514a4bc7cf2a01abe1730.bindPopup(popup_fba8bc8aec562186759dcd37cb439087)
+        ;
+
+        
+    
+    
+                marker_a9f19b7be1e514a4bc7cf2a01abe1730.setIcon(icon_19582a7e92f5579c29f9903811b00e91);
+            
+    
+            var marker_c41dbb1668c31cf3a18b5bcd8813e0b6 = L.marker(
+                [-15.67243, -48.20451],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2f56eb584f28bd7722204ff24bafb272 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c55fc426ba3f30ca74b06d235d741c9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e678c884811dae55815780240d6f4cbd = $(`<div id="html_e678c884811dae55815780240d6f4cbd" style="width: 100.0%; height: 100.0%;">Brazlândia</div>`)[0];
+                popup_c55fc426ba3f30ca74b06d235d741c9a.setContent(html_e678c884811dae55815780240d6f4cbd);
+            
+        
+
+        marker_c41dbb1668c31cf3a18b5bcd8813e0b6.bindPopup(popup_c55fc426ba3f30ca74b06d235d741c9a)
+        ;
+
+        
+    
+    
+                marker_c41dbb1668c31cf3a18b5bcd8813e0b6.setIcon(icon_2f56eb584f28bd7722204ff24bafb272);
+            
+    
+            var marker_0a8dae795aae8dbb6c6e7b23cfcb9794 = L.marker(
+                [-15.76031, -47.78012],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_48343cc617f7f4da60fa0967b67f36d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ee1c79edda855185306b6ccf8ec3229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5ab8ee828fd765fc09ba57d0fa2d202 = $(`<div id="html_e5ab8ee828fd765fc09ba57d0fa2d202" style="width: 100.0%; height: 100.0%;">Paranoá</div>`)[0];
+                popup_5ee1c79edda855185306b6ccf8ec3229.setContent(html_e5ab8ee828fd765fc09ba57d0fa2d202);
+            
+        
+
+        marker_0a8dae795aae8dbb6c6e7b23cfcb9794.bindPopup(popup_5ee1c79edda855185306b6ccf8ec3229)
+        ;
+
+        
+    
+    
+                marker_0a8dae795aae8dbb6c6e7b23cfcb9794.setIcon(icon_48343cc617f7f4da60fa0967b67f36d6);
+            
+    
+            var marker_36ee37337bb35e675fb8ccda031b4059 = L.marker(
+                [-15.76451, -47.87243],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_10058929155b1e7a299f76d9c76a5cbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cec5958624cf057c7e3f2eb79a887e8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6c7da27ef94ce30151bfc07095c8af8 = $(`<div id="html_d6c7da27ef94ce30151bfc07095c8af8" style="width: 100.0%; height: 100.0%;">Asa Norte</div>`)[0];
+                popup_cec5958624cf057c7e3f2eb79a887e8d.setContent(html_d6c7da27ef94ce30151bfc07095c8af8);
+            
+        
+
+        marker_36ee37337bb35e675fb8ccda031b4059.bindPopup(popup_cec5958624cf057c7e3f2eb79a887e8d)
+        ;
+
+        
+    
+    
+                marker_36ee37337bb35e675fb8ccda031b4059.setIcon(icon_10058929155b1e7a299f76d9c76a5cbd);
+            
+    
+            var marker_d8f2b9f712b293ef6bca13076c1d106e = L.marker(
+                [-15.79631, -48.05842],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_3e16137ba8e413cd0162fab08e38d991 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59f72f49aaa2fe73178cc76d73d02ce6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_098bef0c9841e63c805bb61ff8b03bf1 = $(`<div id="html_098bef0c9841e63c805bb61ff8b03bf1" style="width: 100.0%; height: 100.0%;">Taguatinga</div>`)[0];
+                popup_59f72f49aaa2fe73178cc76d73d02ce6.setContent(html_098bef0c9841e63c805bb61ff8b03bf1);
+            
+        
+
+        marker_d8f2b9f712b293ef6bca13076c1d106e.bindPopup(popup_59f72f49aaa2fe73178cc76d73d02ce6)
+        ;
+
+        
+    
+    
+                marker_d8f2b9f712b293ef6bca13076c1d106e.setIcon(icon_3e16137ba8e413cd0162fab08e38d991);
+            
+    
+            var marker_eb9581eee6b137bbea0eb3f7a4693b59 = L.marker(
+                [-15.82341, -47.98912],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_37842bc618cc71fcb77fa2804cabaa19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f9bb4b70523e18e1a4f13e0a58a5709 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bf21ec4d6867744af8320dd6737f093 = $(`<div id="html_1bf21ec4d6867744af8320dd6737f093" style="width: 100.0%; height: 100.0%;">Guará II</div>`)[0];
+                popup_6f9bb4b70523e18e1a4f13e0a58a5709.setContent(html_1bf21ec4d6867744af8320dd6737f093);
+            
+        
+
+        marker_eb9581eee6b137bbea0eb3f7a4693b59.bindPopup(popup_6f9bb4b70523e18e1a4f13e0a58a5709)
+        ;
+
+        
+    
+    
+                marker_eb9581eee6b137bbea0eb3f7a4693b59.setIcon(icon_37842bc618cc71fcb77fa2804cabaa19);
+            
+    
+            var marker_b46d2579e02f16eb8a2c270d52013802 = L.marker(
+                [-15.88012, -48.00841],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_34d7668ada365bf49b8b5fbb5fd49938 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b57464763f878d324fdacf96106b6bf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2127bcfc3d2d32ce4ad72ce897f2d499 = $(`<div id="html_2127bcfc3d2d32ce4ad72ce897f2d499" style="width: 100.0%; height: 100.0%;">Riacho Fundo I</div>`)[0];
+                popup_b57464763f878d324fdacf96106b6bf3.setContent(html_2127bcfc3d2d32ce4ad72ce897f2d499);
+            
+        
+
+        marker_b46d2579e02f16eb8a2c270d52013802.bindPopup(popup_b57464763f878d324fdacf96106b6bf3)
+        ;
+
+        
+    
+    
+                marker_b46d2579e02f16eb8a2c270d52013802.setIcon(icon_34d7668ada365bf49b8b5fbb5fd49938);
+            
+    
+            var marker_8ff4b62febf4ea4048e2cc5b3abd5c96 = L.marker(
+                [-15.61743, -47.66124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2eaefbdb4f58eb4ec23ab777f93e463e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9606fa89330854810654a89ef6b6db8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec9d8df067b7976f2fc22e6c28ba7dde = $(`<div id="html_ec9d8df067b7976f2fc22e6c28ba7dde" style="width: 100.0%; height: 100.0%;">Planaltina</div>`)[0];
+                popup_9606fa89330854810654a89ef6b6db8c.setContent(html_ec9d8df067b7976f2fc22e6c28ba7dde);
+            
+        
+
+        marker_8ff4b62febf4ea4048e2cc5b3abd5c96.bindPopup(popup_9606fa89330854810654a89ef6b6db8c)
+        ;
+
+        
+    
+    
+                marker_8ff4b62febf4ea4048e2cc5b3abd5c96.setIcon(icon_2eaefbdb4f58eb4ec23ab777f93e463e);
+            
+    
+            var marker_69b511f2e4cf841c72727f743540f70a = L.marker(
+                [-16.03541, -48.00124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_24216a207f7a0f5a37a305793174f032 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9f752246e2ea1ed1259cfadb91d225b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c25c043c5d9ee9ef3c5cd0a9428c101 = $(`<div id="html_8c25c043c5d9ee9ef3c5cd0a9428c101" style="width: 100.0%; height: 100.0%;">Santa Maria</div>`)[0];
+                popup_b9f752246e2ea1ed1259cfadb91d225b.setContent(html_8c25c043c5d9ee9ef3c5cd0a9428c101);
+            
+        
+
+        marker_69b511f2e4cf841c72727f743540f70a.bindPopup(popup_b9f752246e2ea1ed1259cfadb91d225b)
+        ;
+
+        
+    
+    
+                marker_69b511f2e4cf841c72727f743540f70a.setIcon(icon_24216a207f7a0f5a37a305793174f032);
+            
+    
+            var marker_32b46fd2448df80a0b0e04cfb673ba80 = L.marker(
+                [-15.90412, -48.06541],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0706c307937ed0e0689cb6b2b0ac1767 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11740b0a6ef07531d4d7fa2bd06f6432 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ca8311b57ad6f2227bb5195612e9358 = $(`<div id="html_6ca8311b57ad6f2227bb5195612e9358" style="width: 100.0%; height: 100.0%;">Recanto das Emas</div>`)[0];
+                popup_11740b0a6ef07531d4d7fa2bd06f6432.setContent(html_6ca8311b57ad6f2227bb5195612e9358);
+            
+        
+
+        marker_32b46fd2448df80a0b0e04cfb673ba80.bindPopup(popup_11740b0a6ef07531d4d7fa2bd06f6432)
+        ;
+
+        
+    
+    
+                marker_32b46fd2448df80a0b0e04cfb673ba80.setIcon(icon_0706c307937ed0e0689cb6b2b0ac1767);
+            
+    
+            var marker_7a322dee901d7e8d1e3fbf987ef11d04 = L.marker(
+                [-15.83512, -47.85431],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6ae2c97ea973efa60413a2df321b4017 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c7660b2abdbf767bbd6a0cc9ac50be6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d841a0334c45d6efcfff06be7d9e63d = $(`<div id="html_0d841a0334c45d6efcfff06be7d9e63d" style="width: 100.0%; height: 100.0%;">Lago Sul</div>`)[0];
+                popup_5c7660b2abdbf767bbd6a0cc9ac50be6.setContent(html_0d841a0334c45d6efcfff06be7d9e63d);
+            
+        
+
+        marker_7a322dee901d7e8d1e3fbf987ef11d04.bindPopup(popup_5c7660b2abdbf767bbd6a0cc9ac50be6)
+        ;
+
+        
+    
+    
+                marker_7a322dee901d7e8d1e3fbf987ef11d04.setIcon(icon_6ae2c97ea973efa60413a2df321b4017);
+            
+    
+            var marker_8cf43dc29f9f00b61795008a6fd8c2fd = L.marker(
+                [-15.81841, -47.90124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_35a2b3620fe952fe16c5e949da5a5bf4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a81acf23923bd8a37b0b1d9704ee47cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbad0573cb5388c1f1593e3dfa7a9b4e = $(`<div id="html_cbad0573cb5388c1f1593e3dfa7a9b4e" style="width: 100.0%; height: 100.0%;">Asa Sul</div>`)[0];
+                popup_a81acf23923bd8a37b0b1d9704ee47cc.setContent(html_cbad0573cb5388c1f1593e3dfa7a9b4e);
+            
+        
+
+        marker_8cf43dc29f9f00b61795008a6fd8c2fd.bindPopup(popup_a81acf23923bd8a37b0b1d9704ee47cc)
+        ;
+
+        
+    
+    
+                marker_8cf43dc29f9f00b61795008a6fd8c2fd.setIcon(icon_35a2b3620fe952fe16c5e949da5a5bf4);
+            
+    
+            var marker_3ce32de9d87566c6a525a28029fec6fa = L.marker(
+                [-15.79431, -47.94821],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1a6092d8b2101a656ba82426e4866be1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4ee02c9eecd95d4956e26db28080a07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09881ba6e9e9920b9e7a92a43f8e924d = $(`<div id="html_09881ba6e9e9920b9e7a92a43f8e924d" style="width: 100.0%; height: 100.0%;">Cruzeiro Velho</div>`)[0];
+                popup_a4ee02c9eecd95d4956e26db28080a07.setContent(html_09881ba6e9e9920b9e7a92a43f8e924d);
+            
+        
+
+        marker_3ce32de9d87566c6a525a28029fec6fa.bindPopup(popup_a4ee02c9eecd95d4956e26db28080a07)
+        ;
+
+        
+    
+    
+                marker_3ce32de9d87566c6a525a28029fec6fa.setIcon(icon_1a6092d8b2101a656ba82426e4866be1);
+            
+    
+            var marker_4bce78c487951858636f849a3cc3268e = L.marker(
+                [-15.87124, -47.97412],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8966b2b1a18d94ad9dd695f0897ee7b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3974b0970c29821ac9c1ccb142356b98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2f18eed0878d4fab5087ec0cdd1daa1 = $(`<div id="html_c2f18eed0878d4fab5087ec0cdd1daa1" style="width: 100.0%; height: 100.0%;">Núcleo Bandeirante</div>`)[0];
+                popup_3974b0970c29821ac9c1ccb142356b98.setContent(html_c2f18eed0878d4fab5087ec0cdd1daa1);
+            
+        
+
+        marker_4bce78c487951858636f849a3cc3268e.bindPopup(popup_3974b0970c29821ac9c1ccb142356b98)
+        ;
+
+        
+    
+    
+                marker_4bce78c487951858636f849a3cc3268e.setIcon(icon_8966b2b1a18d94ad9dd695f0897ee7b1);
+            
+    
+            var marker_b498215321f5e118986447ee4a85a604 = L.marker(
+                [-15.80412, -48.13541],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_5604170b04cc9f90eae05480f0eef2fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_156b7827dd33ec5227057e09dcaef58a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf6ce4412eaa0f182987e78de521829a = $(`<div id="html_bf6ce4412eaa0f182987e78de521829a" style="width: 100.0%; height: 100.0%;">Ceilândia Norte</div>`)[0];
+                popup_156b7827dd33ec5227057e09dcaef58a.setContent(html_bf6ce4412eaa0f182987e78de521829a);
+            
+        
+
+        marker_b498215321f5e118986447ee4a85a604.bindPopup(popup_156b7827dd33ec5227057e09dcaef58a)
+        ;
+
+        
+    
+    
+                marker_b498215321f5e118986447ee4a85a604.setIcon(icon_5604170b04cc9f90eae05480f0eef2fa);
+            
+    
+            var marker_fe3ff9d6a07a6e80381c901aff23f97b = L.marker(
+                [-15.90124, -47.76512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_dbcdc0863f3b0cf362547f10f8890ce6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba38d637d937f90866775fcf58a62d86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e7510743717808ed782e85797db3026 = $(`<div id="html_9e7510743717808ed782e85797db3026" style="width: 100.0%; height: 100.0%;">São Sebastião</div>`)[0];
+                popup_ba38d637d937f90866775fcf58a62d86.setContent(html_9e7510743717808ed782e85797db3026);
+            
+        
+
+        marker_fe3ff9d6a07a6e80381c901aff23f97b.bindPopup(popup_ba38d637d937f90866775fcf58a62d86)
+        ;
+
+        
+    
+    
+                marker_fe3ff9d6a07a6e80381c901aff23f97b.setIcon(icon_dbcdc0863f3b0cf362547f10f8890ce6);
+            
+    
+            var marker_700d755ccdc6c668bd50c35ffcf0a591 = L.marker(
+                [-15.76941, -47.88912],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6541a66a78bfe25a0c627f25f04a823f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1000e18405f8a2f818ede4c35175cd95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3cae7b576f862359bd747f86137c8f3 = $(`<div id="html_b3cae7b576f862359bd747f86137c8f3" style="width: 100.0%; height: 100.0%;">Asa Norte</div>`)[0];
+                popup_1000e18405f8a2f818ede4c35175cd95.setContent(html_b3cae7b576f862359bd747f86137c8f3);
+            
+        
+
+        marker_700d755ccdc6c668bd50c35ffcf0a591.bindPopup(popup_1000e18405f8a2f818ede4c35175cd95)
+        ;
+
+        
+    
+    
+                marker_700d755ccdc6c668bd50c35ffcf0a591.setIcon(icon_6541a66a78bfe25a0c627f25f04a823f);
+            
+    
+            var marker_aa028d50477913bbd6a65b8c531952f5 = L.marker(
+                [-15.78214, -47.89341],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c17e91b3543e7c4f6bb25d00d35700e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0b3948ac6bbadfa49b44294322d0961 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2c2d1a29f77d488d6b8cd7a682f04b8 = $(`<div id="html_e2c2d1a29f77d488d6b8cd7a682f04b8" style="width: 100.0%; height: 100.0%;">Plano Piloto</div>`)[0];
+                popup_f0b3948ac6bbadfa49b44294322d0961.setContent(html_e2c2d1a29f77d488d6b8cd7a682f04b8);
+            
+        
+
+        marker_aa028d50477913bbd6a65b8c531952f5.bindPopup(popup_f0b3948ac6bbadfa49b44294322d0961)
+        ;
+
+        
+    
+    
+                marker_aa028d50477913bbd6a65b8c531952f5.setIcon(icon_c17e91b3543e7c4f6bb25d00d35700e2);
+            
+    
+            var marker_4dfdac99bfc0065f2ff32d4491bd5a08 = L.marker(
+                [-15.79312, -48.03124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f3697b32ff4e94933c7b9472c2be4ac5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a3d6953c6cdc997e8f411c9190cbe9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cef00dd00094122511583c75e7e7fb21 = $(`<div id="html_cef00dd00094122511583c75e7e7fb21" style="width: 100.0%; height: 100.0%;">Vicente Pires</div>`)[0];
+                popup_1a3d6953c6cdc997e8f411c9190cbe9d.setContent(html_cef00dd00094122511583c75e7e7fb21);
+            
+        
+
+        marker_4dfdac99bfc0065f2ff32d4491bd5a08.bindPopup(popup_1a3d6953c6cdc997e8f411c9190cbe9d)
+        ;
+
+        
+    
+    
+                marker_4dfdac99bfc0065f2ff32d4491bd5a08.setIcon(icon_f3697b32ff4e94933c7b9472c2be4ac5);
+            
+    
+            var marker_987494c6d85a2c1f52c480eff8028f7a = L.marker(
+                [-15.76213, -47.90712],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c98179e26215bcf6b0b8d712c78b716e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c09eb16f9d67a0f405ea15f4c8a26795 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52dc13f8ab6f6176f6411e0bcd204c87 = $(`<div id="html_52dc13f8ab6f6176f6411e0bcd204c87" style="width: 100.0%; height: 100.0%;">Noroeste</div>`)[0];
+                popup_c09eb16f9d67a0f405ea15f4c8a26795.setContent(html_52dc13f8ab6f6176f6411e0bcd204c87);
+            
+        
+
+        marker_987494c6d85a2c1f52c480eff8028f7a.bindPopup(popup_c09eb16f9d67a0f405ea15f4c8a26795)
+        ;
+
+        
+    
+    
+                marker_987494c6d85a2c1f52c480eff8028f7a.setIcon(icon_c98179e26215bcf6b0b8d712c78b716e);
+            
+    
+            var marker_e3ccdabd52d65eaf4f3564895218cb4d = L.marker(
+                [-15.89124, -47.78124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_f9774a3869f645e807ae66d96a3ce258 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f15f4b1f66cf69d2ee788b0d0d928b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d58255cb989e403b4f938e7e6d53ca6 = $(`<div id="html_7d58255cb989e403b4f938e7e6d53ca6" style="width: 100.0%; height: 100.0%;">Jardim Botânico</div>`)[0];
+                popup_0f15f4b1f66cf69d2ee788b0d0d928b9.setContent(html_7d58255cb989e403b4f938e7e6d53ca6);
+            
+        
+
+        marker_e3ccdabd52d65eaf4f3564895218cb4d.bindPopup(popup_0f15f4b1f66cf69d2ee788b0d0d928b9)
+        ;
+
+        
+    
+    
+                marker_e3ccdabd52d65eaf4f3564895218cb4d.setIcon(icon_f9774a3869f645e807ae66d96a3ce258);
+            
+    
+            var marker_489fdc01df2f155ca5cdc027b8cd50f9 = L.marker(
+                [-15.89412, -47.96124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_0a2b4e5a68248d05b76f6e7a0153c848 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05cb821b15290f53e692e7eaef8ea64b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ac86c116195070ed3fcf0bb55af2263 = $(`<div id="html_0ac86c116195070ed3fcf0bb55af2263" style="width: 100.0%; height: 100.0%;">Park Way</div>`)[0];
+                popup_05cb821b15290f53e692e7eaef8ea64b.setContent(html_0ac86c116195070ed3fcf0bb55af2263);
+            
+        
+
+        marker_489fdc01df2f155ca5cdc027b8cd50f9.bindPopup(popup_05cb821b15290f53e692e7eaef8ea64b)
+        ;
+
+        
+    
+    
+                marker_489fdc01df2f155ca5cdc027b8cd50f9.setIcon(icon_0a2b4e5a68248d05b76f6e7a0153c848);
+            
+    
+            var marker_bed7aa00a1b03e97d86248ac0382284b = L.marker(
+                [-15.76124, -47.77124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_9d568028507d51301c9e412cae2df81f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4d5c9bc558e20d2a814b992db5ab6ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1924a8e7d3c17287d10f7f290dba7fc = $(`<div id="html_d1924a8e7d3c17287d10f7f290dba7fc" style="width: 100.0%; height: 100.0%;">Itapoã</div>`)[0];
+                popup_c4d5c9bc558e20d2a814b992db5ab6ad.setContent(html_d1924a8e7d3c17287d10f7f290dba7fc);
+            
+        
+
+        marker_bed7aa00a1b03e97d86248ac0382284b.bindPopup(popup_c4d5c9bc558e20d2a814b992db5ab6ad)
+        ;
+
+        
+    
+    
+                marker_bed7aa00a1b03e97d86248ac0382284b.setIcon(icon_9d568028507d51301c9e412cae2df81f);
+            
+    
+            var marker_ec829011785cf9bcde042268485533fe = L.marker(
+                [-15.77512, -47.95812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_36e0c0e64bddb5d2db016db98ad14995 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b4408fba10c2a6abb803a1892257c5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d67546d2d5661d1ba552da7c5ec1ec09 = $(`<div id="html_d67546d2d5661d1ba552da7c5ec1ec09" style="width: 100.0%; height: 100.0%;">Estrutural</div>`)[0];
+                popup_6b4408fba10c2a6abb803a1892257c5d.setContent(html_d67546d2d5661d1ba552da7c5ec1ec09);
+            
+        
+
+        marker_ec829011785cf9bcde042268485533fe.bindPopup(popup_6b4408fba10c2a6abb803a1892257c5d)
+        ;
+
+        
+    
+    
+                marker_ec829011785cf9bcde042268485533fe.setIcon(icon_36e0c0e64bddb5d2db016db98ad14995);
+            
+    
+            var marker_8cac356a814fa8cbf59b1686b9182834 = L.marker(
+                [-15.86124, -47.94612],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_b8fb1114fae550a6b5ed4898956ebcf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e90e74e8348e2347f59789f8a241c5fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9553e5c864ee64e90fec686644bd437 = $(`<div id="html_f9553e5c864ee64e90fec686644bd437" style="width: 100.0%; height: 100.0%;">Candangolândia</div>`)[0];
+                popup_e90e74e8348e2347f59789f8a241c5fc.setContent(html_f9553e5c864ee64e90fec686644bd437);
+            
+        
+
+        marker_8cac356a814fa8cbf59b1686b9182834.bindPopup(popup_e90e74e8348e2347f59789f8a241c5fc)
+        ;
+
+        
+    
+    
+                marker_8cac356a814fa8cbf59b1686b9182834.setIcon(icon_b8fb1114fae550a6b5ed4898956ebcf9);
+            
+    
+            var marker_6c9607fd91ca4b786c5bbc0369fdd959 = L.marker(
+                [-15.72412, -47.86912],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_ea13c66ce0fdf9e38ce73cdacdde74be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b97f3c58a528d3834154dcb9bfc15677 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f0ce721f02aae1ada43c4db3730afc1 = $(`<div id="html_3f0ce721f02aae1ada43c4db3730afc1" style="width: 100.0%; height: 100.0%;">Varjão</div>`)[0];
+                popup_b97f3c58a528d3834154dcb9bfc15677.setContent(html_3f0ce721f02aae1ada43c4db3730afc1);
+            
+        
+
+        marker_6c9607fd91ca4b786c5bbc0369fdd959.bindPopup(popup_b97f3c58a528d3834154dcb9bfc15677)
+        ;
+
+        
+    
+    
+                marker_6c9607fd91ca4b786c5bbc0369fdd959.setIcon(icon_ea13c66ce0fdf9e38ce73cdacdde74be);
+            
+    
+            var marker_670d525392e458b66aa81a42a9732bd1 = L.marker(
+                [-15.81512, -47.90212],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c9828225b151e5e747573d93c87f1ccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_beca9a8e13e30e022f0e7aa790796d6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a982e85968e52294a455c2f6d16d418 = $(`<div id="html_4a982e85968e52294a455c2f6d16d418" style="width: 100.0%; height: 100.0%;">Plano Piloto</div>`)[0];
+                popup_beca9a8e13e30e022f0e7aa790796d6a.setContent(html_4a982e85968e52294a455c2f6d16d418);
+            
+        
+
+        marker_670d525392e458b66aa81a42a9732bd1.bindPopup(popup_beca9a8e13e30e022f0e7aa790796d6a)
+        ;
+
+        
+    
+    
+                marker_670d525392e458b66aa81a42a9732bd1.setIcon(icon_c9828225b151e5e747573d93c87f1ccf);
+            
+    
+            var marker_bfc314345ddf54a84805ee23b706a35d = L.marker(
+                [-15.81612, -47.89712],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_092470e9587cba123b72eb265a61bead = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01979961326ca62833b2c27cb883e768 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a45820ce0862332572ec68a95866024 = $(`<div id="html_4a45820ce0862332572ec68a95866024" style="width: 100.0%; height: 100.0%;">Asa Sul</div>`)[0];
+                popup_01979961326ca62833b2c27cb883e768.setContent(html_4a45820ce0862332572ec68a95866024);
+            
+        
+
+        marker_bfc314345ddf54a84805ee23b706a35d.bindPopup(popup_01979961326ca62833b2c27cb883e768)
+        ;
+
+        
+    
+    
+                marker_bfc314345ddf54a84805ee23b706a35d.setIcon(icon_092470e9587cba123b72eb265a61bead);
+            
+    
+            var marker_8a0f0c10debaa70a81364cf1e64cfb65 = L.marker(
+                [-16.00124, -48.04124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_09c209a699fa58708e117bf1b7f308f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3a80be5436f3888df455ed8764409e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90895f295c682a688d6beae99bbfba44 = $(`<div id="html_90895f295c682a688d6beae99bbfba44" style="width: 100.0%; height: 100.0%;">Gama</div>`)[0];
+                popup_c3a80be5436f3888df455ed8764409e3.setContent(html_90895f295c682a688d6beae99bbfba44);
+            
+        
+
+        marker_8a0f0c10debaa70a81364cf1e64cfb65.bindPopup(popup_c3a80be5436f3888df455ed8764409e3)
+        ;
+
+        
+    
+    
+                marker_8a0f0c10debaa70a81364cf1e64cfb65.setIcon(icon_09c209a699fa58708e117bf1b7f308f5);
+            
+    
+            var marker_37c3140247b454a4e0676b65e4edd9e3 = L.marker(
+                [-15.68124, -47.83124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_7c7650872dbcf7e3fa575b4dd7b42a26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_327a2bd15b8a6c220236178d817097f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41d7d99503af182366b3158bdf94cf3a = $(`<div id="html_41d7d99503af182366b3158bdf94cf3a" style="width: 100.0%; height: 100.0%;">Sobradinho</div>`)[0];
+                popup_327a2bd15b8a6c220236178d817097f9.setContent(html_41d7d99503af182366b3158bdf94cf3a);
+            
+        
+
+        marker_37c3140247b454a4e0676b65e4edd9e3.bindPopup(popup_327a2bd15b8a6c220236178d817097f9)
+        ;
+
+        
+    
+    
+                marker_37c3140247b454a4e0676b65e4edd9e3.setIcon(icon_7c7650872dbcf7e3fa575b4dd7b42a26);
+            
+    
+            var marker_57aa9016519e2ef5a149b5a441eddfe1 = L.marker(
+                [-15.90124, -48.02124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6db0b50933ab3389197b3a388ea88b2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_280b9d159fa9b5ec4031ede24b34e9b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37541c87908d434b2a5ad7c4f7caa353 = $(`<div id="html_37541c87908d434b2a5ad7c4f7caa353" style="width: 100.0%; height: 100.0%;">Riacho Fundo II</div>`)[0];
+                popup_280b9d159fa9b5ec4031ede24b34e9b2.setContent(html_37541c87908d434b2a5ad7c4f7caa353);
+            
+        
+
+        marker_57aa9016519e2ef5a149b5a441eddfe1.bindPopup(popup_280b9d159fa9b5ec4031ede24b34e9b2)
+        ;
+
+        
+    
+    
+                marker_57aa9016519e2ef5a149b5a441eddfe1.setIcon(icon_6db0b50933ab3389197b3a388ea88b2b);
+            
+    
+            var marker_810a3471c53254e875c4dfe7b845c210 = L.marker(
+                [-15.64124, -48.18124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_ce7b3d383455811fda8c3589825c786f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c1eee41942c8b3fe9605d565eee7c83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22b3f57d765473bdcff1253b0e3275a8 = $(`<div id="html_22b3f57d765473bdcff1253b0e3275a8" style="width: 100.0%; height: 100.0%;">Brazlândia</div>`)[0];
+                popup_2c1eee41942c8b3fe9605d565eee7c83.setContent(html_22b3f57d765473bdcff1253b0e3275a8);
+            
+        
+
+        marker_810a3471c53254e875c4dfe7b845c210.bindPopup(popup_2c1eee41942c8b3fe9605d565eee7c83)
+        ;
+
+        
+    
+    
+                marker_810a3471c53254e875c4dfe7b845c210.setIcon(icon_ce7b3d383455811fda8c3589825c786f);
+            
+    
+            var marker_06052ef39170799fa11383c061bfa5dd = L.marker(
+                [-16.01124, -47.98124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8c9e962f4f2674dcf03f18950b2cd8b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e522d528d89121f61f2af45132bdca25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c6a046ab58c9c4bd5a62a61f41eec46 = $(`<div id="html_2c6a046ab58c9c4bd5a62a61f41eec46" style="width: 100.0%; height: 100.0%;">Santa Maria</div>`)[0];
+                popup_e522d528d89121f61f2af45132bdca25.setContent(html_2c6a046ab58c9c4bd5a62a61f41eec46);
+            
+        
+
+        marker_06052ef39170799fa11383c061bfa5dd.bindPopup(popup_e522d528d89121f61f2af45132bdca25)
+        ;
+
+        
+    
+    
+                marker_06052ef39170799fa11383c061bfa5dd.setIcon(icon_8c9e962f4f2674dcf03f18950b2cd8b7);
+            
+    
+            var marker_899b642898a47810afa27de1ddde0f4f = L.marker(
+                [-15.92124, -48.08124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_4587d4d45df44d47e129fcc45eee48cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_719a26811410589f163fe89e8e885161 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06c4d8c6ea03c29708f5855e7438fd35 = $(`<div id="html_06c4d8c6ea03c29708f5855e7438fd35" style="width: 100.0%; height: 100.0%;">Recanto das Emas</div>`)[0];
+                popup_719a26811410589f163fe89e8e885161.setContent(html_06c4d8c6ea03c29708f5855e7438fd35);
+            
+        
+
+        marker_899b642898a47810afa27de1ddde0f4f.bindPopup(popup_719a26811410589f163fe89e8e885161)
+        ;
+
+        
+    
+    
+                marker_899b642898a47810afa27de1ddde0f4f.setIcon(icon_4587d4d45df44d47e129fcc45eee48cb);
+            
+    
+            var marker_dadcdc9db9f999ebc811a36a0c07ffe2 = L.marker(
+                [-15.73124, -47.83124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_5223e82c571fc6c4ec1a3d80d2532315 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a54e270559c251c4a157fcdd9cda6e15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3a90f2365fc867c8a0549e77d0b30de = $(`<div id="html_d3a90f2365fc867c8a0549e77d0b30de" style="width: 100.0%; height: 100.0%;">Lago Norte</div>`)[0];
+                popup_a54e270559c251c4a157fcdd9cda6e15.setContent(html_d3a90f2365fc867c8a0549e77d0b30de);
+            
+        
+
+        marker_dadcdc9db9f999ebc811a36a0c07ffe2.bindPopup(popup_a54e270559c251c4a157fcdd9cda6e15)
+        ;
+
+        
+    
+    
+                marker_dadcdc9db9f999ebc811a36a0c07ffe2.setIcon(icon_5223e82c571fc6c4ec1a3d80d2532315);
+            
+    
+            var marker_5e8cbba1a65ca64e202cc01780ffee34 = L.marker(
+                [-15.77512, -47.88712],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_4304342db81cbe675ec442ba2b4c5193 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8f63e52149be4abd78743df118f6915 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86c8665aac56003d0c0179431e2d841b = $(`<div id="html_86c8665aac56003d0c0179431e2d841b" style="width: 100.0%; height: 100.0%;">Asa Norte</div>`)[0];
+                popup_b8f63e52149be4abd78743df118f6915.setContent(html_86c8665aac56003d0c0179431e2d841b);
+            
+        
+
+        marker_5e8cbba1a65ca64e202cc01780ffee34.bindPopup(popup_b8f63e52149be4abd78743df118f6915)
+        ;
+
+        
+    
+    
+                marker_5e8cbba1a65ca64e202cc01780ffee34.setIcon(icon_4304342db81cbe675ec442ba2b4c5193);
+            
+    
+            var marker_78f56423fb73967ed24e2871e4dee07d = L.marker(
+                [-15.82512, -47.99124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_584c8f0aea8bd02ac56706e370a7ab45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ced8d91e35f769800b55b5a883f1fc54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b62882dbe5538eb79ba2856ce3eed28b = $(`<div id="html_b62882dbe5538eb79ba2856ce3eed28b" style="width: 100.0%; height: 100.0%;">Guará II</div>`)[0];
+                popup_ced8d91e35f769800b55b5a883f1fc54.setContent(html_b62882dbe5538eb79ba2856ce3eed28b);
+            
+        
+
+        marker_78f56423fb73967ed24e2871e4dee07d.bindPopup(popup_ced8d91e35f769800b55b5a883f1fc54)
+        ;
+
+        
+    
+    
+                marker_78f56423fb73967ed24e2871e4dee07d.setIcon(icon_584c8f0aea8bd02ac56706e370a7ab45);
+            
+    
+            var marker_12e132f2264bbed8290bd799fbd3ccfb = L.marker(
+                [-15.83512, -48.02312],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_d745cd73b14478e384ddbd0b0e5c01a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb8b376c01aebf923b3ec39fa1ee50d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e698ab1e8278f9000fcb8d54d85d294 = $(`<div id="html_3e698ab1e8278f9000fcb8d54d85d294" style="width: 100.0%; height: 100.0%;">Águas Claras</div>`)[0];
+                popup_cb8b376c01aebf923b3ec39fa1ee50d4.setContent(html_3e698ab1e8278f9000fcb8d54d85d294);
+            
+        
+
+        marker_12e132f2264bbed8290bd799fbd3ccfb.bindPopup(popup_cb8b376c01aebf923b3ec39fa1ee50d4)
+        ;
+
+        
+    
+    
+                marker_12e132f2264bbed8290bd799fbd3ccfb.setIcon(icon_d745cd73b14478e384ddbd0b0e5c01a1);
+            
+    
+            var marker_f263dbbf7460abde5cf4610f2c1fb03b = L.marker(
+                [-15.83812, -48.03124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_3dfbe9e1ec5c8cb555533f7273bc4de6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be2f641ef30c74c7cf8b9cc816e8862f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2b4428119585b396907517acf345083 = $(`<div id="html_c2b4428119585b396907517acf345083" style="width: 100.0%; height: 100.0%;">Taguatinga Norte</div>`)[0];
+                popup_be2f641ef30c74c7cf8b9cc816e8862f.setContent(html_c2b4428119585b396907517acf345083);
+            
+        
+
+        marker_f263dbbf7460abde5cf4610f2c1fb03b.bindPopup(popup_be2f641ef30c74c7cf8b9cc816e8862f)
+        ;
+
+        
+    
+    
+                marker_f263dbbf7460abde5cf4610f2c1fb03b.setIcon(icon_3dfbe9e1ec5c8cb555533f7273bc4de6);
+            
+    
+            var marker_2fa5ee35d9a96bdb52d51655021d3dd6 = L.marker(
+                [-15.80124, -47.92512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_7af0b92dc3411645347d32b54d320f0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c44dc903538aa2b24254589a5933acc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b106ee76c920cd03103b39827c9c1ec = $(`<div id="html_9b106ee76c920cd03103b39827c9c1ec" style="width: 100.0%; height: 100.0%;">Sudoeste</div>`)[0];
+                popup_c44dc903538aa2b24254589a5933acc5.setContent(html_9b106ee76c920cd03103b39827c9c1ec);
+            
+        
+
+        marker_2fa5ee35d9a96bdb52d51655021d3dd6.bindPopup(popup_c44dc903538aa2b24254589a5933acc5)
+        ;
+
+        
+    
+    
+                marker_2fa5ee35d9a96bdb52d51655021d3dd6.setIcon(icon_7af0b92dc3411645347d32b54d320f0a);
+            
+    
+            var marker_8f43c2081176f005432b13dc2e2786cb = L.marker(
+                [-15.79124, -47.93212],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_1ba3579612161b12140a0c73ba148617 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8eb9a7684bcea40cc871dac6d8d9c3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffe4cf3aa428fdeccb3bbaaf5cf19b6e = $(`<div id="html_ffe4cf3aa428fdeccb3bbaaf5cf19b6e" style="width: 100.0%; height: 100.0%;">Cruzeiro Novo</div>`)[0];
+                popup_c8eb9a7684bcea40cc871dac6d8d9c3d.setContent(html_ffe4cf3aa428fdeccb3bbaaf5cf19b6e);
+            
+        
+
+        marker_8f43c2081176f005432b13dc2e2786cb.bindPopup(popup_c8eb9a7684bcea40cc871dac6d8d9c3d)
+        ;
+
+        
+    
+    
+                marker_8f43c2081176f005432b13dc2e2786cb.setIcon(icon_1ba3579612161b12140a0c73ba148617);
+            
+    
+            var marker_141c6c8f465d92fc3db7096c4f49efd4 = L.marker(
+                [-15.87124, -48.08124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_5d0142737747813677c1f4c0e35b28cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d18ffacde7b4109840b7ba60a6771e72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ed504e0641e7f547f99bbaeff25c855 = $(`<div id="html_9ed504e0641e7f547f99bbaeff25c855" style="width: 100.0%; height: 100.0%;">Samambaia Sul</div>`)[0];
+                popup_d18ffacde7b4109840b7ba60a6771e72.setContent(html_9ed504e0641e7f547f99bbaeff25c855);
+            
+        
+
+        marker_141c6c8f465d92fc3db7096c4f49efd4.bindPopup(popup_d18ffacde7b4109840b7ba60a6771e72)
+        ;
+
+        
+    
+    
+                marker_141c6c8f465d92fc3db7096c4f49efd4.setIcon(icon_5d0142737747813677c1f4c0e35b28cc);
+            
+    
+            var marker_b9034e3a4b61b7c3e25c38a8a2a7a947 = L.marker(
+                [-15.82812, -48.13124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_2a7f1e9659b45599fb15fb5b36fd899d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37a4652bff9aad45c1e87ba48a3b1926 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b414e673492318295144f9ea0096bcf5 = $(`<div id="html_b414e673492318295144f9ea0096bcf5" style="width: 100.0%; height: 100.0%;">Ceilândia</div>`)[0];
+                popup_37a4652bff9aad45c1e87ba48a3b1926.setContent(html_b414e673492318295144f9ea0096bcf5);
+            
+        
+
+        marker_b9034e3a4b61b7c3e25c38a8a2a7a947.bindPopup(popup_37a4652bff9aad45c1e87ba48a3b1926)
+        ;
+
+        
+    
+    
+                marker_b9034e3a4b61b7c3e25c38a8a2a7a947.setIcon(icon_2a7f1e9659b45599fb15fb5b36fd899d);
+            
+    
+            var marker_71f04678553083bde31e65754025bd21 = L.marker(
+                [-15.81124, -47.89812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_91b6cda938e4845e8378b30e88a8d6ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7c436d9ce4beabacfc49081ffc7800c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed124cff64ede5f008b97b3abb8f6d01 = $(`<div id="html_ed124cff64ede5f008b97b3abb8f6d01" style="width: 100.0%; height: 100.0%;">Asa Sul</div>`)[0];
+                popup_b7c436d9ce4beabacfc49081ffc7800c.setContent(html_ed124cff64ede5f008b97b3abb8f6d01);
+            
+        
+
+        marker_71f04678553083bde31e65754025bd21.bindPopup(popup_b7c436d9ce4beabacfc49081ffc7800c)
+        ;
+
+        
+    
+    
+                marker_71f04678553083bde31e65754025bd21.setIcon(icon_91b6cda938e4845e8378b30e88a8d6ac);
+            
+    
+            var marker_153ef8769f91ce6e642950739574f840 = L.marker(
+                [-15.75412, -47.91212],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8a9800c917895e4e3ba2b6b526081387 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04c554a76f3d9aadce27d6ec8d1e3b36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f63a8e54e537da2d8f24c85bf71b974 = $(`<div id="html_2f63a8e54e537da2d8f24c85bf71b974" style="width: 100.0%; height: 100.0%;">Noroeste</div>`)[0];
+                popup_04c554a76f3d9aadce27d6ec8d1e3b36.setContent(html_2f63a8e54e537da2d8f24c85bf71b974);
+            
+        
+
+        marker_153ef8769f91ce6e642950739574f840.bindPopup(popup_04c554a76f3d9aadce27d6ec8d1e3b36)
+        ;
+
+        
+    
+    
+                marker_153ef8769f91ce6e642950739574f840.setIcon(icon_8a9800c917895e4e3ba2b6b526081387);
+            
+    
+            var marker_4c3c11619c082195cd3bfa836ea7904b = L.marker(
+                [-16.00412, -48.04512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_311a79c01e144aeafc3ab4781d93764f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab8ff6f65dde17f6fb34c5bf18fb98f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bb9a27aa4e14cdeb43173a5e85dec71 = $(`<div id="html_5bb9a27aa4e14cdeb43173a5e85dec71" style="width: 100.0%; height: 100.0%;">Gama</div>`)[0];
+                popup_ab8ff6f65dde17f6fb34c5bf18fb98f9.setContent(html_5bb9a27aa4e14cdeb43173a5e85dec71);
+            
+        
+
+        marker_4c3c11619c082195cd3bfa836ea7904b.bindPopup(popup_ab8ff6f65dde17f6fb34c5bf18fb98f9)
+        ;
+
+        
+    
+    
+                marker_4c3c11619c082195cd3bfa836ea7904b.setIcon(icon_311a79c01e144aeafc3ab4781d93764f);
+            
+    
+            var marker_1602c1cbcbcde8f867e3f17a26a1695b = L.marker(
+                [-15.82124, -47.92124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_37de89b0f9065e30cf633c876c67bfb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef12d4df58c79b43a97d41d4e47383b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87abea0b84fd13640e9fd05a138c3e04 = $(`<div id="html_87abea0b84fd13640e9fd05a138c3e04" style="width: 100.0%; height: 100.0%;">Plano Piloto</div>`)[0];
+                popup_ef12d4df58c79b43a97d41d4e47383b8.setContent(html_87abea0b84fd13640e9fd05a138c3e04);
+            
+        
+
+        marker_1602c1cbcbcde8f867e3f17a26a1695b.bindPopup(popup_ef12d4df58c79b43a97d41d4e47383b8)
+        ;
+
+        
+    
+    
+                marker_1602c1cbcbcde8f867e3f17a26a1695b.setIcon(icon_37de89b0f9065e30cf633c876c67bfb7);
+            
+    
+            var marker_da89044da5095f092b27bacc71772d59 = L.marker(
+                [-15.83012, -48.03512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6008fa96fdb997053cff9dcd6f7f3807 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a35e5e44fd009aac9bcad7de1ccbab6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02c88ea6abe07ff781b8d14508bec1a3 = $(`<div id="html_02c88ea6abe07ff781b8d14508bec1a3" style="width: 100.0%; height: 100.0%;">Vicente Pires</div>`)[0];
+                popup_1a35e5e44fd009aac9bcad7de1ccbab6.setContent(html_02c88ea6abe07ff781b8d14508bec1a3);
+            
+        
+
+        marker_da89044da5095f092b27bacc71772d59.bindPopup(popup_1a35e5e44fd009aac9bcad7de1ccbab6)
+        ;
+
+        
+    
+    
+                marker_da89044da5095f092b27bacc71772d59.setIcon(icon_6008fa96fdb997053cff9dcd6f7f3807);
+            
+    
+            var marker_89514531831e7e5f3606d495fc094911 = L.marker(
+                [-15.90124, -47.80124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_98fb9e7ae4fd3d81b72dc7633aac8bb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f8bf8529caa1d02ae44c316a8116baf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55e0e2ef440652b7827f6b6115848a6 = $(`<div id="html_f55e0e2ef440652b7827f6b6115848a6" style="width: 100.0%; height: 100.0%;">Jardim Botânico</div>`)[0];
+                popup_7f8bf8529caa1d02ae44c316a8116baf.setContent(html_f55e0e2ef440652b7827f6b6115848a6);
+            
+        
+
+        marker_89514531831e7e5f3606d495fc094911.bindPopup(popup_7f8bf8529caa1d02ae44c316a8116baf)
+        ;
+
+        
+    
+    
+                marker_89514531831e7e5f3606d495fc094911.setIcon(icon_98fb9e7ae4fd3d81b72dc7633aac8bb4);
+            
+    
+            var marker_df5fe2753f8ea1ab8b2acd3e734d0dd7 = L.marker(
+                [-15.74124, -47.79124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_07ce1a29d6201afa32ce24f2209d7e63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9718d177a0dbe4854a043a46fbbe0b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_263ee74f51e2400f35f833f9ee06df97 = $(`<div id="html_263ee74f51e2400f35f833f9ee06df97" style="width: 100.0%; height: 100.0%;">Itapoã</div>`)[0];
+                popup_d9718d177a0dbe4854a043a46fbbe0b2.setContent(html_263ee74f51e2400f35f833f9ee06df97);
+            
+        
+
+        marker_df5fe2753f8ea1ab8b2acd3e734d0dd7.bindPopup(popup_d9718d177a0dbe4854a043a46fbbe0b2)
+        ;
+
+        
+    
+    
+                marker_df5fe2753f8ea1ab8b2acd3e734d0dd7.setIcon(icon_07ce1a29d6201afa32ce24f2209d7e63);
+            
+    
+            var marker_6bbc3b0bc8647d3dfd01cbb6bace7c75 = L.marker(
+                [-15.84124, -47.93124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_787071796e2f73561f94f548635be1b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30f517d812da82993bbe82e31e9fd0ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c38b549ed1fcf80e66eaba183cdc2a4 = $(`<div id="html_4c38b549ed1fcf80e66eaba183cdc2a4" style="width: 100.0%; height: 100.0%;">Candangolândia</div>`)[0];
+                popup_30f517d812da82993bbe82e31e9fd0ef.setContent(html_4c38b549ed1fcf80e66eaba183cdc2a4);
+            
+        
+
+        marker_6bbc3b0bc8647d3dfd01cbb6bace7c75.bindPopup(popup_30f517d812da82993bbe82e31e9fd0ef)
+        ;
+
+        
+    
+    
+                marker_6bbc3b0bc8647d3dfd01cbb6bace7c75.setIcon(icon_787071796e2f73561f94f548635be1b7);
+            
+    
+            var marker_a267c02f4ca412650da7145b70a1d636 = L.marker(
+                [-15.75124, -47.89124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_6a91350643ad56ea17df945b5486eca9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cde6aa089b3f20864b21fbc9413f429e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30111b0123dfabc32fe19d0c70c8e2c9 = $(`<div id="html_30111b0123dfabc32fe19d0c70c8e2c9" style="width: 100.0%; height: 100.0%;">Asa Norte</div>`)[0];
+                popup_cde6aa089b3f20864b21fbc9413f429e.setContent(html_30111b0123dfabc32fe19d0c70c8e2c9);
+            
+        
+
+        marker_a267c02f4ca412650da7145b70a1d636.bindPopup(popup_cde6aa089b3f20864b21fbc9413f429e)
+        ;
+
+        
+    
+    
+                marker_a267c02f4ca412650da7145b70a1d636.setIcon(icon_6a91350643ad56ea17df945b5486eca9);
+            
+    
+            var marker_e7543146cdbf814b7250e83a8b854022 = L.marker(
+                [-15.87812, -48.00512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_c076b63ddd5315c87909380b90d97fd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6267878f650b6054caca95beb892badb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20a5da80859e03bab8c0654ec14e0ce2 = $(`<div id="html_20a5da80859e03bab8c0654ec14e0ce2" style="width: 100.0%; height: 100.0%;">Riacho Fundo I</div>`)[0];
+                popup_6267878f650b6054caca95beb892badb.setContent(html_20a5da80859e03bab8c0654ec14e0ce2);
+            
+        
+
+        marker_e7543146cdbf814b7250e83a8b854022.bindPopup(popup_6267878f650b6054caca95beb892badb)
+        ;
+
+        
+    
+    
+                marker_e7543146cdbf814b7250e83a8b854022.setIcon(icon_c076b63ddd5315c87909380b90d97fd2);
+            
+    
+            var marker_a3c3391926de73c1a3134247ea405826 = L.marker(
+                [-15.65124, -47.79512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_8f1cb98c7f3cae9cf75fa4e765076fa6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e23c5031c5344d162458ca4713479b73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7188b7089436a58830a2cf506545a4ff = $(`<div id="html_7188b7089436a58830a2cf506545a4ff" style="width: 100.0%; height: 100.0%;">Sobradinho</div>`)[0];
+                popup_e23c5031c5344d162458ca4713479b73.setContent(html_7188b7089436a58830a2cf506545a4ff);
+            
+        
+
+        marker_a3c3391926de73c1a3134247ea405826.bindPopup(popup_e23c5031c5344d162458ca4713479b73)
+        ;
+
+        
+    
+    
+                marker_a3c3391926de73c1a3134247ea405826.setIcon(icon_8f1cb98c7f3cae9cf75fa4e765076fa6);
+            
+    
+            var marker_16b75c01a7e3c72d5afec241cf354bc3 = L.marker(
+                [-15.84124, -48.05812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_03540e66e34e22ecdcd56b112f369e54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ff198df6aba6928091d2a6cdb93f956 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_304522de0516c4aa5e84a6e4b2f72357 = $(`<div id="html_304522de0516c4aa5e84a6e4b2f72357" style="width: 100.0%; height: 100.0%;">Taguatinga</div>`)[0];
+                popup_9ff198df6aba6928091d2a6cdb93f956.setContent(html_304522de0516c4aa5e84a6e4b2f72357);
+            
+        
+
+        marker_16b75c01a7e3c72d5afec241cf354bc3.bindPopup(popup_9ff198df6aba6928091d2a6cdb93f956)
+        ;
+
+        
+    
+    
+                marker_16b75c01a7e3c72d5afec241cf354bc3.setIcon(icon_03540e66e34e22ecdcd56b112f369e54);
+            
+    
+            var marker_b2cbbe6f70db7712118559ccab786fad = L.marker(
+                [-15.82124, -47.98512],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_a22f479aae0b740deb96dddf0bf21e09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9dbdfc217bacf6ba599f8155ef58935d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f59f00f609110c1123959594605b43f7 = $(`<div id="html_f59f00f609110c1123959594605b43f7" style="width: 100.0%; height: 100.0%;">Guará II</div>`)[0];
+                popup_9dbdfc217bacf6ba599f8155ef58935d.setContent(html_f59f00f609110c1123959594605b43f7);
+            
+        
+
+        marker_b2cbbe6f70db7712118559ccab786fad.bindPopup(popup_9dbdfc217bacf6ba599f8155ef58935d)
+        ;
+
+        
+    
+    
+                marker_b2cbbe6f70db7712118559ccab786fad.setIcon(icon_a22f479aae0b740deb96dddf0bf21e09);
+            
+    
+            var marker_e7a9444f05aab0397ba71dac5cbd5572 = L.marker(
+                [-15.83612, -48.03812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_36ebb705816f544adb9ed16f490f76bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6109856215be4eabe14ddeac234962e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0705ab5404a30943b7d73d4a0a309d21 = $(`<div id="html_0705ab5404a30943b7d73d4a0a309d21" style="width: 100.0%; height: 100.0%;">Águas Claras</div>`)[0];
+                popup_6109856215be4eabe14ddeac234962e2.setContent(html_0705ab5404a30943b7d73d4a0a309d21);
+            
+        
+
+        marker_e7a9444f05aab0397ba71dac5cbd5572.bindPopup(popup_6109856215be4eabe14ddeac234962e2)
+        ;
+
+        
+    
+    
+                marker_e7a9444f05aab0397ba71dac5cbd5572.setIcon(icon_36ebb705816f544adb9ed16f490f76bd);
+            
+    
+            var marker_77649c29e28717b5ff25d149bb2a55fd = L.marker(
+                [-15.86124, -48.09124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_229b7dcbfd0718294fdd44164699a663 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc53fafd05baffa4fafffdc7a03600fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_972314a4ce77c8a659fe5e177b355409 = $(`<div id="html_972314a4ce77c8a659fe5e177b355409" style="width: 100.0%; height: 100.0%;">Samambaia</div>`)[0];
+                popup_bc53fafd05baffa4fafffdc7a03600fb.setContent(html_972314a4ce77c8a659fe5e177b355409);
+            
+        
+
+        marker_77649c29e28717b5ff25d149bb2a55fd.bindPopup(popup_bc53fafd05baffa4fafffdc7a03600fb)
+        ;
+
+        
+    
+    
+                marker_77649c29e28717b5ff25d149bb2a55fd.setIcon(icon_229b7dcbfd0718294fdd44164699a663);
+            
+    
+            var marker_5b9d70795208bfbc4f1403fb227db1cb = L.marker(
+                [-15.78124, -47.95124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_654a2e68dc5e5d4dd72bd6ba14d9da61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a626d8976775cda0753bed74e37fe05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3644ab5dca59afde3bb2fdd5cc2ee44 = $(`<div id="html_c3644ab5dca59afde3bb2fdd5cc2ee44" style="width: 100.0%; height: 100.0%;">Cruzeiro</div>`)[0];
+                popup_8a626d8976775cda0753bed74e37fe05.setContent(html_c3644ab5dca59afde3bb2fdd5cc2ee44);
+            
+        
+
+        marker_5b9d70795208bfbc4f1403fb227db1cb.bindPopup(popup_8a626d8976775cda0753bed74e37fe05)
+        ;
+
+        
+    
+    
+                marker_5b9d70795208bfbc4f1403fb227db1cb.setIcon(icon_654a2e68dc5e5d4dd72bd6ba14d9da61);
+            
+    
+            var marker_01a5e12ab48c1b9dfa378f83451b2cd7 = L.marker(
+                [-15.81124, -47.86124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_eb9a201a2ca4845721b194885b02b92e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d67edfaf841f4ba886f8ddcfe638fe7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc100e40a7b793393ed63b7788595eed = $(`<div id="html_dc100e40a7b793393ed63b7788595eed" style="width: 100.0%; height: 100.0%;">Lago Sul</div>`)[0];
+                popup_d67edfaf841f4ba886f8ddcfe638fe7e.setContent(html_dc100e40a7b793393ed63b7788595eed);
+            
+        
+
+        marker_01a5e12ab48c1b9dfa378f83451b2cd7.bindPopup(popup_d67edfaf841f4ba886f8ddcfe638fe7e)
+        ;
+
+        
+    
+    
+                marker_01a5e12ab48c1b9dfa378f83451b2cd7.setIcon(icon_eb9a201a2ca4845721b194885b02b92e);
+            
+    
+            var marker_858f5d7bd17c1dcd21bd1742ef4a92fc = L.marker(
+                [-15.79512, -47.91812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_88bdb17bcc0f78f90e6e7fc90f5f11c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54da7f6df9ddf445849c011654a9ee5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5775bbe272798c15a488c13964acffaf = $(`<div id="html_5775bbe272798c15a488c13964acffaf" style="width: 100.0%; height: 100.0%;">Sudoeste</div>`)[0];
+                popup_54da7f6df9ddf445849c011654a9ee5e.setContent(html_5775bbe272798c15a488c13964acffaf);
+            
+        
+
+        marker_858f5d7bd17c1dcd21bd1742ef4a92fc.bindPopup(popup_54da7f6df9ddf445849c011654a9ee5e)
+        ;
+
+        
+    
+    
+                marker_858f5d7bd17c1dcd21bd1742ef4a92fc.setIcon(icon_88bdb17bcc0f78f90e6e7fc90f5f11c6);
+            
+    
+            var marker_7325e4b3db9a24129da416094ad4c756 = L.marker(
+                [-15.80812, -47.89412],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_34cac369526414cec4f114eb6a37860e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc90497ca3538483e3ed3f6e88dc9f18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65b566df9cb22c8d807e129c0c64f03e = $(`<div id="html_65b566df9cb22c8d807e129c0c64f03e" style="width: 100.0%; height: 100.0%;">Asa Sul</div>`)[0];
+                popup_cc90497ca3538483e3ed3f6e88dc9f18.setContent(html_65b566df9cb22c8d807e129c0c64f03e);
+            
+        
+
+        marker_7325e4b3db9a24129da416094ad4c756.bindPopup(popup_cc90497ca3538483e3ed3f6e88dc9f18)
+        ;
+
+        
+    
+    
+                marker_7325e4b3db9a24129da416094ad4c756.setIcon(icon_34cac369526414cec4f114eb6a37860e);
+            
+    
+            var marker_b68cacef76fc69bd1b4112ee32417a07 = L.marker(
+                [-16.01812, -48.06812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_200c3c6021adc81068fefe1b0576368a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32944674288f31875abddeee93ff9962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51315f9f0a9818287871ca32cd9560ac = $(`<div id="html_51315f9f0a9818287871ca32cd9560ac" style="width: 100.0%; height: 100.0%;">Gama</div>`)[0];
+                popup_32944674288f31875abddeee93ff9962.setContent(html_51315f9f0a9818287871ca32cd9560ac);
+            
+        
+
+        marker_b68cacef76fc69bd1b4112ee32417a07.bindPopup(popup_32944674288f31875abddeee93ff9962)
+        ;
+
+        
+    
+    
+                marker_b68cacef76fc69bd1b4112ee32417a07.setIcon(icon_200c3c6021adc81068fefe1b0576368a);
+            
+    
+            var marker_7a1822aeaadf41bfc3c860a1be344215 = L.marker(
+                [-15.84124, -48.14124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_db80b95e3aa71ff7043e890d8ad20113 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ad9ee4ab57f9203da818c9cd6027d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7832045dbf0dc69aae9ed9c1b6e5bcfc = $(`<div id="html_7832045dbf0dc69aae9ed9c1b6e5bcfc" style="width: 100.0%; height: 100.0%;">Ceilândia</div>`)[0];
+                popup_6ad9ee4ab57f9203da818c9cd6027d97.setContent(html_7832045dbf0dc69aae9ed9c1b6e5bcfc);
+            
+        
+
+        marker_7a1822aeaadf41bfc3c860a1be344215.bindPopup(popup_6ad9ee4ab57f9203da818c9cd6027d97)
+        ;
+
+        
+    
+    
+                marker_7a1822aeaadf41bfc3c860a1be344215.setIcon(icon_db80b95e3aa71ff7043e890d8ad20113);
+            
+    
+            var marker_5d5b2ce1c06769085b444719070b648e = L.marker(
+                [-15.79812, -47.86124],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_07dc7f1e170577159f23afc96210f0c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa6f6cb9f8350fe40fb0ed5ec5205dd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b04beab8f518b26f0d1aa56607d1ef96 = $(`<div id="html_b04beab8f518b26f0d1aa56607d1ef96" style="width: 100.0%; height: 100.0%;">Plano Piloto</div>`)[0];
+                popup_aa6f6cb9f8350fe40fb0ed5ec5205dd5.setContent(html_b04beab8f518b26f0d1aa56607d1ef96);
+            
+        
+
+        marker_5d5b2ce1c06769085b444719070b648e.bindPopup(popup_aa6f6cb9f8350fe40fb0ed5ec5205dd5)
+        ;
+
+        
+    
+    
+                marker_5d5b2ce1c06769085b444719070b648e.setIcon(icon_07dc7f1e170577159f23afc96210f0c5);
+            
+    
+            var marker_ae10af733555448ac8c47b0f462b2c35 = L.marker(
+                [-15.75912, -47.90812],
+                {
+}
+            ).addTo(map_32e73adb00d091ba3c9a2cdd5f4dbc4e);
+        
+    
+            var icon_9f26848787c159ffda65df94db7a42b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "futbol",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8960af063a1f88be68b846d49a18759b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eb0c6d27400f761ce0bf68638d5fa6e = $(`<div id="html_5eb0c6d27400f761ce0bf68638d5fa6e" style="width: 100.0%; height: 100.0%;">Noroeste</div>`)[0];
+                popup_8960af063a1f88be68b846d49a18759b.setContent(html_5eb0c6d27400f761ce0bf68638d5fa6e);
+            
+        
+
+        marker_ae10af733555448ac8c47b0f462b2c35.bindPopup(popup_8960af063a1f88be68b846d49a18759b)
+        ;
+
+        
+    
+    
+                marker_ae10af733555448ac8c47b0f462b2c35.setIcon(icon_9f26848787c159ffda65df94db7a42b8);
+            
+</script>
+</html>
