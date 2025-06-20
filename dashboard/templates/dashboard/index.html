@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Esportivo - DF</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; background-color: #f4f4f9; color: #333; }
+        header { background-color: #0056b3; color: white; padding: 1rem; text-align: center; }
+        h1, h2 { color: #004085; }
+        .container { max-width: 1400px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .grid-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .grid-item { border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .grid-item h2 { margin-top: 0; }
+        .map-container, .chart-container { width: 100%; }
+        .map-container iframe { width: 100%; height: 500px; border: none; }
+        .chart-container img { max-width: 100%; height: auto; }
+        #title { color: black; }
+        @media (max-width: 900px) { .grid-container { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">Painel de Infraestrutura Esportiva do Distrito Federal</h1>
+    </header>
+
+    <div class="container">
+        <h2>Mapas de Localização</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Mapa de Pontos (Quadras e Ginásios)</h2>
+                <div class="map-container">
+                    {{ mapa_pontos_html|safe }}
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2>Mapa de Calor</h2>
+                <div class="map-container">
+                    {{ mapa_calor_html|safe }}
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin: 40px 0;">
+
+        <h2>Análise Quantitativa por Região Administrativa</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Quantidade de Quadras</h2>
+                <div class="chart-container">
+                    <img src="data:image/png;base64,{{ grafico_quadras_b64 }}" alt="Gráfico de Quadras por Região">
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2>Quantidade de Ginásios</h2>
+                <div class="chart-container">
+                    <img src="data:image/png;base64,{{ grafico_ginasios_b64 }}" alt="Gráfico de Ginásios por Região">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
