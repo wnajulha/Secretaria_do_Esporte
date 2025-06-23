@@ -7,7 +7,6 @@ import io
 import base64
 
 def plot_to_base64(plt_fig):
-    # Esta função continua a mesma
     buf = io.BytesIO()
     plt_fig.savefig(buf, format='png', bbox_inches='tight')
     buf.seek(0)
@@ -17,22 +16,19 @@ def plot_to_base64(plt_fig):
 
 def dashboard_view(request):
     path_quadras = 'dashboard/qtd_quadras.csv'
-    path_ginasios = 'dashboard/qtd_ginasios.csv' # Agora vamos ler o arquivo corrigido
+    path_ginasios = 'dashboard/qtd_ginasios.csv' 
 
     quadras = pd.read_csv(path_quadras).dropna(subset=["Latitude", "Longitude"])
     quadras["Tipo"] = "Quadra"
     quadras["Descricao"] = quadras["Tipo_quadra"]
 
-    # Carrega o novo CSV de ginásios
     ginasios = pd.read_csv(path_ginasios)
     ginasios_mapa = ginasios.dropna(subset=["Latitude", "Longitude"]).copy()
     ginasios_mapa["Tipo"] = "Ginásio"
-    # A descrição no mapa agora vem da coluna 'Nome_do_ginasio'
     ginasios_mapa["Descricao"] = ginasios_mapa["Nome_do_ginasio"] 
 
     locais = pd.concat([quadras, ginasios_mapa], ignore_index=True)
 
-    # O código para gerar os mapas e gráficos continua o mesmo...
     mapa_pontos = folium.Map(location=[-15.7942, -47.8822], zoom_start=11)
     for _, row in locais.iterrows():
         cor = "blue" if row["Tipo"] == "Quadra" else "green"
@@ -68,19 +64,13 @@ def dashboard_view(request):
     ax_quadras.set_xticks(range(0, max_val_quadras + 10, 10))
     grafico_quadras_b64 = plot_to_base64(fig_quadras)
 
-
-    # --- LÓGICA SIMPLIFICADA PARA AGRUPAR GINÁSIOS ---
-    # Como o CSV já está correto, o código aqui fica muito mais limpo
     dados_ginasios_agrupados = {}
     
-    # Apenas filtramos e ordenamos
     ginasios_com_horario = ginasios.dropna(
         subset=['Regiao_Administrativa', 'Endereço', 'Nome_do_ginasio', 'Horario_de_funcionamento']
     ).sort_values('Regiao_Administrativa')
 
-    # Agrupa os dados
     for regiao, df_regiao in ginasios_com_horario.groupby('Regiao_Administrativa'):
-        # Seleciona as colunas que já existem no CSV
         lista_de_ginasios = df_regiao[['Nome_do_ginasio', 'Endereço', 'Horario_de_funcionamento']].to_dict('records')
         dados_ginasios_agrupados[regiao] = lista_de_ginasios
 
